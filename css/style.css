@@ -1,3 +1,16 @@
-* {
-    box-sizing: border-box;
+ul {
+    display: grid;
+    list-style: none;
+}
+
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+
+}
+
+h2 {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: 400;
 }
