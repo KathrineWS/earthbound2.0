@@ -15,46 +15,132 @@
 
 }
 
-nav {
-    width: 100%;
-    height: 75px;
-    line-height: 75px;
-    padding: 0px 100px;
-    background-color: #5f6f52;
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--darkgreen);
+    padding: 0px 138px;
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-
+    z-index: 1000;
+    height: 75px;
 }
 
-nav ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    list-style: none;
-    padding: 0%;
-    color: #fffffb;
-
-}
-
-nav li {
-    font-size: 18px;
-    font-family: 'Schibsted Grotesk', sans-serif;
-    margin-right: 38px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fffffb;
-}
-
-#logo {
+header .logo {
+    font-size: 20px;
+    color: var(--white);
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
     font-size: 40px;
-    padding-left: 38px;
 }
 
 
-@media screen and (min-width: 900px) {
-    nav {}
+.nav__listitem {
+    list-style: none;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.nav__listitem {
+    position: relative;
+    float: left;
+}
+
+header .nav ul li a {
+    font-size: 20px;
+    padding: 10px;
+    color: var(--white);
+    display: block;
+}
+
+header .nav ul li a:hover {
+    background: var(--accent2);
+    border-radius: 50px;
+    color: var(--black);
+}
+
+.nav__listitemdrop {
+    position: absolute;
+    left: 0;
+    width: 140px;
+    background: var(--lightgreen);
+    display: none;
+    border: 1px solid var(--darkgreen);
+}
+
+a {
+    text-decoration: none;
+}
+
+.li_drop {
+    list-style: none;
+}
+
+header .nav ul li ul li {
+    width: 100%;
+}
+
+header .nav ul li:focus-within>ul,
+header .nav ul li:hover>ul {
+    display: initial;
+}
+
+#menu-bar {
+    display: none;
+}
+
+header label {
+    font-size: 20px;
+    color: var(--black);
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 991px) {
+    header {
+        padding: 16px;
+    }
+
+    header label {
+        display: initial;
+    }
+
+    header .nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--lightgreen);
+        display: none;
+    }
+
+    header .nav ul li {
+        width: 100%;
+    }
+
+    header .nav ul li ul {
+        position: relative;
+        width: 100%;
+    }
+
+    #menu-bar:checked~.nav {
+        display: initial;
+    }
+
+    .nav__listitemdrop {
+        border: none;
+    }
+
+    header .logo {
+        font-size: 32px;
+        color: var(--white);
+    }
+
+    header label {
+        color: var(--white);
+        font-family: 'Schibsted Grotesk', sans-serif;
+        font-size: 24px;
+    }
 }
