@@ -15,6 +15,8 @@
 
 }
 
+/* nav bar */
+
 header {
     position: fixed;
     top: 0;
@@ -50,7 +52,7 @@ header .logo {
 
 header .nav ul li a {
     font-size: 20px;
-    padding: 10px;
+    padding: 20px;
     color: var(--white);
     display: block;
 }
@@ -97,6 +99,10 @@ header label {
     cursor: pointer;
     display: none;
 }
+
+/* footer */
+
+
 
 @media (max-width: 991px) {
     header {

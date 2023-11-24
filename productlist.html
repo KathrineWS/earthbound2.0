@@ -6,21 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Earthbound.</title>
     <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;700&family=Schibsted+Grotesk:wght@400;600;700&display=swap");
     </style>
   </head>
   <body>
     <header>
-      <nav>
-        <div id="logo"><a href="index.html">Earthbound.</a></div>
+      <a href="index.html" class="logo">Earthbound.</a>
+      <input type="checkbox" id="menu-bar" />
+      <label for="menu-bar">Menu</label>
+      <nav class="nav">
         <ul>
-          <li>Guide</li>
-          <li><a href="productlist.html">Gifts</a></li>
-          <li>About</li>
-          <li>Blog</li>
+          <li class="nav__listitem">
+            <a href="index.html">Guide</a>
+            <ul class="nav__listitemdrop">
+              <li class="li_drop"><a href="menu1.html">⊛ Nav 1</a></li>
+              <li class="li_drop"><a href="menu2.html">⊛ Nav 2</a></li>
+              <li class="li_drop"><a href="menu3.html">⊛ Nav 3</a></li>
+            </ul>
+          </li>
+          <li class="nav__listitem">
+            <a href="productlist.html">Gifts</a>
+            <ul class="nav__listitemdrop">
+              <li class="li_drop"><a href="coding.html">Categories</a></li>
+              <li class="li_drop"><a href="ux.html">Categories</a></li>
+            </ul>
+          </li>
+          <li class="nav__listitem"><a href="index.html">About</a></li>
+          <li class="nav__listitem"><a href="index.html">Blog</a></li>
         </ul>
       </nav>
     </header>
+    <main>
+      <!--Filter system for productlist-->
+      <div class="childgrid">
+        <div id="child1-main-left">
+          <button class="outdoor">Outdoor</button>
+          <button class="home">Home</button>
+          <button class="work">Work supplies</button>
+          <button class="merch">Merch</button>
+        </div>
+        <div id="child1-main-right">
+          <button class="outdoor">Filter</button>
+        </div>
+      </div>
+    </main>
+    <!--<template id="smallProductTemp">-->
+    <article class="smallProduct">
+      <img
+        src="https://kea-alt-del.dk/t7/images/webp/1000/2801.webp"
+        alt="Sahara Team India Fanwear Round Neck Jersey"
+      />
+      <h2 class="productName">Sahara Team India Fanwear Round Neck Jersey</h2>
+
+      <p class="item">Tshirts | Nike</p>
+      <p class="priceItem"><span>From</span>" DKK 895,-"</p>
+      <a class="linkhtml" href="productlist.html?id=1530">Read more</a>
+    </article>
+    <!--</template>-->
   </body>
 </html>
