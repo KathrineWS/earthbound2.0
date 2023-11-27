@@ -15,9 +15,22 @@ fetch(url, options)
     return response.json();
   })
   .then((data) => {
-    console.log(data);
+    //console.log(data);
+    handleData(data);
   })
 
   .catch((e) => {
     console.error("An error occured", e.message);
   });
+
+function handleData(earthbound) {
+  earthbound.forEach((product) => {
+    //console.log(product)
+    const template = document.querySelector("template").content;
+    const clone = template.cloneNode(true);
+    clone.querySelector("h2").textContent = product.product_name;
+    clone.querySelector("p").textContent = product.price_from;
+    const mainEl = document.querySelector("main");
+    mainEl.appendChild(clone);
+  });
+}
