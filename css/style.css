@@ -36,14 +36,19 @@ main {
 }
 
 
-article {
+.gridlist {}
 
-    display: flex;
-    justify-content: flex-start;
+.productlist {
+
+    max-width: 25%;
 }
 
 img {
     max-width: 100%;
+}
+
+h2 {
+    font-family: 'Schibsted Grotesk', sans-serif;
 }
 
 button {

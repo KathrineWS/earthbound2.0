@@ -26,7 +26,7 @@ fetch(url, options)
 function handleData(earthbound) {
   earthbound.forEach((product) => {
     //console.log(product)
-    const template = document.querySelector("template").content;
+    const template = document.querySelector(".temp-list").content;
     const clone = template.cloneNode(true);
     clone.querySelector("h2").textContent = product.product_name;
     clone.querySelector("p").textContent = product.price_from;
