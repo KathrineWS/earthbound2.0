@@ -5,23 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <main></main>
-    <template>
-      <article class="card">
-        <h2>Product name</h2>
-        <div>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum,
-            corporis. Quis nisi atque alias exercitationem veritatis, ea
-            voluptate doloribus natus. Deleniti, vero. Vel, neque? Sunt omnis
-            facere vel perspiciatis maiores.
-          </p>
-        </div>
-        <a href="#">Read more</a>
-      </article>
-    </template>
+    <header>
+      <a href="index.html" class="logo">Earthbound.</a>
+      <input type="checkbox" id="menu-bar" />
+      <label for="menu-bar">Menu</label>
+      <nav class="nav">
+        <ul>
+          <li class="nav__listitem">
+            <a href="index.html">Guide</a>
+            <ul class="nav__listitemdrop">
+              <li class="li_drop"><a href="menu1.html">⊛ Nav 1</a></li>
+              <li class="li_drop"><a href="menu2.html">⊛ Nav 2</a></li>
+              <li class="li_drop"><a href="menu3.html">⊛ Nav 3</a></li>
+            </ul>
+          </li>
+          <li class="nav__listitem">
+            <a href="productlist.html">Gifts</a>
+            <ul class="nav__listitemdrop">
+              <li class="li_drop"><a href="coding.html">Categories</a></li>
+              <li class="li_drop"><a href="ux.html">Categories</a></li>
+            </ul>
+          </li>
+          <li class="nav__listitem"><a href="index.html">About</a></li>
+          <li class="nav__listitem"><a href="index.html">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img class="product_img" src="" alt="" />
+      <h2>Product name</h2>
+      <div>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum,
+          corporis. Quis nisi atque alias exercitationem veritatis, ea voluptate
+          doloribus natus. Deleniti, vero. Vel, neque? Sunt omnis facere vel
+          perspiciatis maiores.
+        </p>
+      </div>
+      <a href="#">Read more</a>
+    </main>
+
     <script src="/js/productpage.js"></script>
   </body>
 </html>

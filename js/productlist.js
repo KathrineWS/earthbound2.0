@@ -34,4 +34,6 @@ function handleData(earthbound) {
     const mainEl = document.querySelector("main");
     mainEl.appendChild(clone);
   });
+  const parent = document.querySelector("main");
+  parent.appendChild(clone);
 }
