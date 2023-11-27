@@ -30,6 +30,7 @@ function handleData(earthbound) {
     const clone = template.cloneNode(true);
     clone.querySelector("h2").textContent = product.product_name;
     clone.querySelector("p").textContent = product.price_from;
+    clone.querySelector("img").src = product.productimg_url;
     const mainEl = document.querySelector("main");
     mainEl.appendChild(clone);
   });
