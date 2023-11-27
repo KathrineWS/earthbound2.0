@@ -28,6 +28,7 @@ main {
 
 }
 
+/* get this to the other side*/
 #child1-main-right {
     margin-bottom: 1em;
     justify-content: flex-end;
