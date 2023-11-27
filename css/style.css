@@ -36,7 +36,7 @@ main {
 }
 
 
-.productlist {
+article {
 
     display: flex;
     justify-content: flex-start;
