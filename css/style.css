@@ -18,7 +18,7 @@ main {
 
 .childgrid {
     display: flex;
-    position: absolute;
+
 
 }
 
@@ -36,13 +36,20 @@ main {
 }
 
 
-.productlist {
 
-    max-width: 25%;
+.listcontent {
+    max-width: 50%;
+
+}
+
+.gridlist {
+    margin-top: 10em;
+
 }
 
 img {
     max-width: 100%;
+    max-height: 100%;
 }
 
 h2 {
@@ -69,7 +76,30 @@ button:hover {
     text-decoration: underline;
 }
 
+#productpage {
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.product_img {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.product_info {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 20px;
+}
+
 @media (max-width: 600px) {
+    main {
+        box-sizing: border-box;
+        padding: 0px 0px;
+    }
 
     button {
         background-color: var(--white);
@@ -89,5 +119,24 @@ button:hover {
 
     button:hover {
         text-decoration: underline;
+    }
+
+    #productpage {
+        margin-top: 5em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .product_img {
+        max-width: 100%;
+        max-height: 100%;
+
+    }
+
+    .product_info {
+        font-family: 'Schibsted Grotesk', sans-serif;
+        font-size: 14px;
     }
 }
