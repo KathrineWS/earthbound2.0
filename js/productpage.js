@@ -1,5 +1,6 @@
 const urlParams = new URLSearchParams(window.location.search);
 const id = urlParams.get("id");
+//console.log(id);
 
 const url = `https://earthbound-9369.restdb.io/rest/earthbound/${id}`;
 
@@ -9,6 +10,8 @@ const options = {
     "x-apikey": "656435640887e93baa176230",
   },
 };
+//console.log(options);
+
 fetch(url, options)
   .then((response) => {
     if (!response.ok) {
@@ -23,3 +26,9 @@ fetch(url, options)
   .catch((e) => {
     console.error("an error occured:", e.message);
   });
+
+function handleData(product) {
+  console.log(product);
+  document.querySelector("h2").textContent = product.product_name;
+  document.querySelector(".product_img").src = product.productimg_url;
+}

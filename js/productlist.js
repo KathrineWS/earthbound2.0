@@ -31,9 +31,10 @@ function handleData(earthbound) {
     clone.querySelector("h2").textContent = product.product_name;
     clone.querySelector("p").textContent = product.price_from;
     clone.querySelector("img").src = product.productimg_url;
+    clone.querySelector(
+      ".linkhtml"
+    ).href = `productpage.html?id=${product._id}`;
     const mainEl = document.querySelector("main");
     mainEl.appendChild(clone);
   });
-  const parent = document.querySelector("main");
-  parent.appendChild(clone);
 }
