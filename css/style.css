@@ -35,10 +35,18 @@ main {
 
 }
 
-
+.product-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 5em;
+    max-width: 100%;
+    gap: 1rem;
+}
 
 .listcontent {
-    max-width: 50%;
+    max-width: 100%;
+    justify-content: center;
 
 }
 
