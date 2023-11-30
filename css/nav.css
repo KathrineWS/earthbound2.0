@@ -23,7 +23,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background-color: var(--darkgreen);
+    background-color: var(--sand);
     padding: 0px 138px;
     display: flex;
     align-items: center;
@@ -34,7 +34,7 @@ header {
 
 header .logo {
     font-size: 20px;
-    color: var(--white);
+    color: var(--black);
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
     font-size: 40px;
