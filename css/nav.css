@@ -3,10 +3,11 @@
     --white: #fffffb;
     --lightgreen: #d7d9c7;
     --darkgreen: #5f6f52;
-    --beige: #faeee0;
+    --beige: #fcf8f2;
     --orange: #f9a049;
-    --grey: #bfbfba;
+    --sand: #ebe2ce;
 }
+
 
 * {
     margin: 0px;

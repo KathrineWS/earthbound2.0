@@ -3,15 +3,16 @@
     --white: #fffffb;
     --lightgreen: #d7d9c7;
     --darkgreen: #5f6f52;
-    --beige: #faeee0;
+    --beige: #fcf8f2;
     --orange: #f9a049;
-    --grey: #bfbfba;
+    --sand: #ebe2ce;
 }
 
 
 main {
     box-sizing: border-box;
     padding: 0px 138px;
+    background-color: var(--beige);
 }
 
 /* product list */
@@ -101,6 +102,55 @@ button:hover {
 .product_info {
     font-family: 'Schibsted Grotesk', sans-serif;
     font-size: 20px;
+}
+
+/* Gift guide page */
+
+#giftguide {
+    background-image: url(/assets/Artboard\ 3.svg);
+    background-repeat: no-repeat;
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    height: 780px;
+
+}
+
+#giftguide h1 {
+    margin-top: 5em;
+    height: 100px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--black);
+    text-align: center;
+
+}
+
+.guidebutton {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 21px;
+    background-color: var(--beige);
+    color: var(--black);
+    border: 2px solid black;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    width: 40%;
+    height: 100px;
+    padding: 20px 40px;
+    justify-self: center;
+
+
+}
+
+.guidebutton:hover {
+    background-color: var(--black);
+    color: var(--beige);
+    text-align: center;
+    text-decoration: none;
 }
 
 @media (max-width: 600px) {
