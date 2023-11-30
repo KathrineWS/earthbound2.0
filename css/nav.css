@@ -119,7 +119,7 @@ header label {
         top: 100%;
         left: 0;
         right: 0;
-        background: var(--lightgreen);
+        background: var(--sand);
         display: none;
     }
 
@@ -142,11 +142,11 @@ header label {
 
     header .logo {
         font-size: 32px;
-        color: var(--white);
+        color: var(--black);
     }
 
     header label {
-        color: var(--white);
+        color: var(--black);
         font-family: 'Schibsted Grotesk', sans-serif;
         font-size: 24px;
     }

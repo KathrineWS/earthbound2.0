@@ -200,6 +200,7 @@ button:hover {
     padding: 40px 40px;
     justify-self: center;
     margin: 2em;
+    margin-bottom: 100%;
 }
 
 .pricebutton:hover {
@@ -365,21 +366,23 @@ button:hover {
     }
 
     #giftguide {
-        margin-top: 2em;
+        margin-top: 3em;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         justify-content: center;
-        height: 800px;
+        height: 844px;
+        align-items: center;
 
     }
 
     #giftguide h1 {
         margin-top: 2em;
+        margin-bottom: 10%;
         height: 100px;
         font-family: 'Schibsted Grotesk', sans-serif;
         font-weight: 700;
-        font-size: 21px;
+        font-size: 32px;
         color: var(--black);
         text-align: center;
 
@@ -387,7 +390,7 @@ button:hover {
 
     .guidebutton {
         font-family: 'Schibsted Grotesk', sans-serif;
-        font-size: 21px;
+        font-size: 18px;
         font-weight: 400;
         background-color: var(--beige);
         color: var(--black);
@@ -395,10 +398,11 @@ button:hover {
         cursor: pointer;
         text-align: center;
         text-decoration: none;
-        width: 30%;
-        height: 100px;
-        padding: 40px 40px;
+        width: 80%;
+        height: 80px;
+        padding: 25px 40px;
         justify-self: center;
+        margin-bottom: 100%;
 
 
     }
@@ -420,12 +424,12 @@ button:hover {
         background-repeat: no-repeat;
         margin-top: 3em;
         justify-content: center;
-        height: 830px;
+        height: 844px;
 
     }
 
     #step1 h1 {
-        margin-top: 5em;
+        margin-top: 2em;
         height: 100px;
         font-family: 'Schibsted Grotesk', sans-serif;
         font-weight: 700;
@@ -436,8 +440,9 @@ button:hover {
 
     .pricegrid {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40%;
 
     }
 
@@ -451,11 +456,12 @@ button:hover {
         cursor: pointer;
         text-align: center;
         text-decoration: none;
-        width: 30%;
-        height: 100px;
-        padding: 40px 40px;
-        justify-self: center;
-        margin: 2em;
+        width: 80%;
+        height: 80px;
+        padding: 25px 40px;
+        margin: 5%;
+
+
     }
 
     .pricebutton:hover {
@@ -475,12 +481,12 @@ button:hover {
         background-repeat: no-repeat;
         margin-top: 3em;
         justify-content: center;
-        height: 830px;
+        height: 844px;
 
     }
 
     #step2 h1 {
-        margin-top: 5em;
+        margin-top: 2em;
         height: 100px;
         font-family: 'Schibsted Grotesk', sans-serif;
         font-weight: 700;
@@ -491,9 +497,9 @@ button:hover {
 
     .catgrid {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40%;
     }
 
     .catbutton {
@@ -506,11 +512,10 @@ button:hover {
         cursor: pointer;
         text-align: center;
         text-decoration: none;
-        width: 30%;
-        height: 100px;
-        padding: 40px 40px;
-        justify-self: center;
-        margin: 2em;
+        width: 80%;
+        height: 80px;
+        padding: 25px 40px;
+
     }
 
     .catbutton:hover {
@@ -528,26 +533,29 @@ button:hover {
         grid-template-rows: 1fr 1fr;
         background-image: url(/assets/Artboard\ 3.svg);
         background-repeat: no-repeat;
-        margin-top: 3em;
+        margin-top: 2em;
         justify-content: center;
-        height: 830px;
+        height: 844px;
+        align-items: center;
 
     }
 
     #step3 h1 {
-        margin-top: 5em;
+        margin-top: 2em;
         height: 100px;
         font-family: 'Schibsted Grotesk', sans-serif;
         font-weight: 700;
-        font-size: 32px;
+        font-size: 28px;
         color: var(--black);
         text-align: center;
     }
 
     .selectiongrid {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
+        margin-bottom: 50%;
 
     }
 
@@ -561,9 +569,9 @@ button:hover {
         cursor: pointer;
         text-align: center;
         text-decoration: none;
-        width: 30%;
-        height: 100px;
-        padding: 40px 40px;
+        width: 80%;
+        height: 80px;
+        padding: 25px 40px;
         justify-self: center;
         margin: 2em;
     }
