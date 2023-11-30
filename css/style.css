@@ -320,6 +320,17 @@ button:hover {
     text-decoration: none;
 }
 
+/* giftguide result page */
+
+#resultwrapper {}
+
+.contentwrapper {
+    margin-top: 5em;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 @media (max-width: 600px) {
     main {
         box-sizing: border-box;

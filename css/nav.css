@@ -54,12 +54,11 @@ header .logo {
 header .nav ul li a {
     font-size: 20px;
     padding: 20px;
-    color: var(--white);
+    color: var(--black);
     display: block;
 }
 
 header .nav ul li a:hover {
-    background: var(--accent2);
     border-radius: 50px;
     color: var(--black);
 }
@@ -67,7 +66,7 @@ header .nav ul li a:hover {
 .nav__listitemdrop {
     position: absolute;
     left: 0;
-    width: 140px;
+    width: 200px;
     background: var(--lightgreen);
     display: none;
     border: 1px solid var(--darkgreen);

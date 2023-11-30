@@ -18,7 +18,53 @@
   <body>
     <header>
       <a href="index.html" class="logo">Earthbound.</a>
+      <input type="checkbox" id="menu-bar" />
+      <label for="menu-bar">Menu</label>
+      <nav class="nav">
+        <ul>
+          <li class="nav__listitem">
+            <a href="giftguide.html">Guide</a>
+            <ul class="nav__listitemdrop">
+              <li class="li_drop"><a href="menu1.html">⊛ Nav 1</a></li>
+              <li class="li_drop"><a href="menu2.html">⊛ Nav 2</a></li>
+              <li class="li_drop"><a href="menu3.html">⊛ Nav 3</a></li>
+            </ul>
+          </li>
+          <li class="nav__listitem">
+            <a href="productlist.html">Gifts</a>
+            <ul class="nav__listitemdrop">
+              <li class="li_drop"><a href="coding.html">Categories</a></li>
+              <li class="li_drop"><a href="ux.html">Categories</a></li>
+            </ul>
+          </li>
+          <li class="nav__listitem"><a href="index.html">About</a></li>
+          <li class="nav__listitem"><a href="index.html">Blog</a></li>
+        </ul>
+      </nav>
     </header>
-    <main></main>
+    <main>
+      <div id="resultwrapper">
+        <div class="contentwrapper">
+          <div class="resulttext">
+            <h1>Hello World</h1>
+            <h2>
+              Subtext in <br />
+              two lines
+            </h2>
+          </div>
+          <img class="resultimg" src="" alt="" />
+        </div>
+        <div>
+          <!-- <template> -->
+          <article class="listcontent">
+            <img src="" alt="" />
+            <h2>Product name</h2>
+            <p><span>From</span>" DKK 895,-"</p>
+            <a class="linkhtml" href="productpage.html?id=">Read more</a>
+          </article>
+          <!-- </template> -->
+        </div>
+      </div>
+    </main>
   </body>
 </html>
