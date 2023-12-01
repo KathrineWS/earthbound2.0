@@ -11,8 +11,8 @@
 
 main {
     box-sizing: border-box;
-    padding: 0px 138px;
-    background-color: var(--beige);
+    /* padding: 0px 138px; */
+    background-color: var(--white);
 }
 
 /* product list */
@@ -322,14 +322,85 @@ button:hover {
 
 /* giftguide result page */
 
-#resultwrapper {}
 
 .contentwrapper {
-    margin-top: 5em;
-    height: 350px;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    height: 400px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: var(--beige);
+    max-width: 100%;
+    padding: 0px 138px;
+
 }
+
+.resulttext {
+    margin-top: 4em;
+    font-family: 'Schibsted Grotesk', sans-serif;
+
+}
+
+.resulttext h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.resulttext h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 2em;
+}
+
+.contentwrapper img {
+    max-width: 100%;
+    max-height: 400px;
+
+}
+
+#gggrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px 138px;
+
+}
+
+.ggcontent {
+    max-width: 80%;
+    align-items: center;
+}
+
+.resultbuttons {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.resultbuttons a {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: var(--white);
+    color: var(--black);
+    border: 2px solid var(--darkgreen);
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+    height: 80px;
+    padding: 25px 20px;
+    justify-self: center;
+    margin: 2em;
+}
+
+.resultbuttons a:hover {
+    background-color: var(--darkgreen);
+    color: var(--beige);
+    text-align: center;
+    text-decoration: none;
+}
+
 
 @media (max-width: 600px) {
     main {
