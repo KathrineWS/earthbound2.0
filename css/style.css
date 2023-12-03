@@ -15,6 +15,203 @@ main {
     background-color: var(--white);
 }
 
+/* Landing page */
+
+.landingblock {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+    height: 700px;
+    background-color: var(--beige);
+}
+
+.landingtext {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 138px;
+    margin-top: 10em;
+}
+
+.landingtext h1 {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.landingtext h2 {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.landingtext a {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    background-color: var(--beige);
+    color: var(--black);
+    border: 2px solid black;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    width: 40%;
+    height: 60px;
+    padding: 15px 20px;
+    justify-self: center;
+
+
+}
+
+.landingtext a:hover {
+    background-color: var(--black);
+    color: var(--beige);
+    text-align: center;
+    text-decoration: none;
+}
+
+/* .landingimg {
+    height: 500px;
+} */
+
+.giftguideblock {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--darkgreen);
+    height: 500px;
+}
+
+.guideblock {
+    width: 50%;
+    margin-left: 138px;
+}
+
+.guidetext {
+    color: var(--lightgreen);
+    margin-top: 6em;
+    align-self: auto;
+}
+
+.guidetext h2 {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 3em;
+}
+
+.guidetext a {
+
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: var(--lightgreen);
+    color: var(--black);
+    border: 2px solid black;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    width: 40%;
+    height: 60px;
+    padding: 15px 20px;
+    justify-self: center;
+}
+
+.guidetext a:hover {
+    background-color: var(--black);
+    color: var(--beige);
+    text-align: center;
+    text-decoration: none;
+}
+
+.top3block {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 0px 138px;
+    height: 800px;
+}
+
+.top3block h2 {
+    display: flex;
+    height: 100px;
+    margin-top: 2em;
+    justify-self: center;
+}
+
+.top3block a {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: var(--darkgreen);
+    color: var(--beige);
+    /* border: 2px solid black; */
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+    height: 60px;
+    padding: 15px 20px;
+    justify-self: center;
+}
+
+.top3block a:hover {
+    background-color: var(--black);
+    color: var(--beige);
+    text-align: center;
+    text-decoration: none;
+}
+
+.top3products {
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    margin-bottom: 5em;
+    justify-self: center;
+}
+
+.topproducts {
+    max-width: 100%;
+    padding: 2em;
+
+}
+
+.trustpilot {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 500px;
+    background-color: var(--lightgreen);
+    padding: 3em;
+    justify-content: center;
+}
+
+.trustpilot h2 {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.reviewbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.review {
+
+    width: 30%;
+    height: 300px;
+    padding: 30px 30px;
+    background-color: var(--darkgreen);
+    margin-right: 2em;
+
+}
+
 /* product list */
 
 .childgrid {
@@ -33,6 +230,7 @@ main {
 #child1-main-right {
     margin-bottom: 1em;
     justify-content: flex-end;
+
 
 }
 
