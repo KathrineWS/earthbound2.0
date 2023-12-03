@@ -369,6 +369,11 @@ button:hover {
     align-items: center;
 }
 
+.producttext {
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
 .resultbuttons {
     margin-top: 2em;
     display: flex;
@@ -454,10 +459,10 @@ button:hover {
     grid-template-columns: 1fr 1fr;
     background-color: var(--lightgreen);
     height: 300px;
+    padding: 0px 300px;
 }
 
 .newslettertext {
-    padding: 0px 300px;
     font-family: 'Schibsted Grotesk', sans-serif;
     margin-top: 5em;
 
@@ -476,9 +481,6 @@ button:hover {
 
 /* microinteraction newsletter button */
 .newslettercontainer {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     display: flex;
@@ -487,10 +489,12 @@ button:hover {
 }
 
 .newslettercontent {
-    width: 360px;
-    height: 40px;
-    box-shadow: 2px 4px 10px rgba(0, 0, 0, .2);
-    border-radius: 60px;
+    /* width: 360px;
+    height: 40px; */
+    width: 450px;
+    height: 50px;
+    /* box-shadow: 2px 4px 10px rgba(0, 0, 0, .2); */
+    /* border-radius: 60px; */
     overflow: hidden;
 }
 
@@ -498,6 +502,14 @@ button:hover {
     position: relative;
     width: 100%;
     height: 100%;
+}
+
+.before-submit {
+    padding: 4px;
+}
+
+.after-submit {
+    padding: 4px;
 }
 
 .subscription .add-email {
@@ -518,12 +530,12 @@ button:hover {
     height: calc(100% - 2px);
     width: 100px;
     border: none;
-    border-radius: 60px;
+    /* border-radius: 60px; */
     outline: none;
     margin: 1px;
     padding: 0 20px;
     cursor: pointer;
-    background: #4ABEBB;
+    background: var(--darkgreen);
     color: #FFFFFF;
     transition: width .35s ease-in-out,
         background .35s ease-in-out;
@@ -531,7 +543,7 @@ button:hover {
 
 .subscription.done .submit-email {
     width: calc(100% - 2px);
-    background: #C0E02E;
+    background: var(--darkgreen);
 }
 
 .subscription .submit-email .before-submit,
@@ -563,7 +575,7 @@ button:hover {
     opacity: 1;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     main {
         box-sizing: border-box;
         padding: 0px 0px;
@@ -825,4 +837,264 @@ button:hover {
         text-align: center;
         text-decoration: none;
     }
+
+    /* Result content */
+
+    .contentwrapper {
+        margin: 0 0px;
+        height: 350px;
+        background-color: var(--beige);
+        max-width: 100%;
+        padding: 0 0px;
+
+    }
+
+    .resulttext {
+        margin-top: 6em;
+        margin-left: 1em;
+        font-family: 'Schibsted Grotesk', sans-serif;
+
+    }
+
+    .resulttext h1 {
+        font-size: 34px;
+        font-weight: 700;
+    }
+
+    .resulttext h2 {
+        font-size: 21px;
+        font-weight: 400;
+        margin-top: 0.5em;
+    }
+
+    .contentwrapper img {
+        max-width: 80%;
+        max-height: 400px;
+        margin-top: 11em;
+        margin-left: 2em;
+
+    }
+
+    #gggrid {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0px;
+        max-width: 100%;
+    }
+
+    .ggcontent {
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .producttext {
+        margin-bottom: 4em;
+        margin-left: 1em;
+    }
+
+    .resultbuttons {
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2em;
+    }
+
+    .resultbuttons a {
+        font-family: 'Schibsted Grotesk', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        background-color: var(--white);
+        color: var(--black);
+        border: 2px solid var(--darkgreen);
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        width: 60%;
+        height: 80px;
+        padding: 25px 20px;
+        justify-self: center;
+        align-self: center;
+        margin: 1em;
+    }
+
+    .resultbuttons a:hover {
+        background-color: var(--darkgreen);
+        color: var(--beige);
+        text-align: center;
+        text-decoration: none;
+    }
+
+    #b2bservice {
+        background-color: var(--beige);
+        height: 650px;
+
+    }
+
+    .servicetext {
+        margin-top: 2em;
+        padding: 0px 0px;
+        height: 40%;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Schibsted Grotesk', sans-serif;
+        justify-self: center;
+    }
+
+    .servicetext h1 {
+        font-size: 28px;
+        font-weight: 700;
+        color: var(--orange);
+    }
+
+    .servicetext h2 {
+        font-size: 16px;
+        font-weight: 400;
+        color: var(--orange);
+    }
+
+    .steps {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 6em;
+        padding: 0px 0px;
+        justify-self: center;
+        margin-top: 4em;
+
+    }
+
+    .steps p {
+        color: var(--orange);
+        font-family: 'Schibsted Grotesk', sans-serif;
+        font-weight: 400;
+        padding: 2em;
+        margin-top: 4em;
+        text-align: center;
+
+    }
+
+    #newsletter {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        background-color: var(--lightgreen);
+        height: 300px;
+        padding: 0px 0px;
+        justify-self: left;
+    }
+
+    .newslettertext {
+        font-family: 'Schibsted Grotesk', sans-serif;
+        margin-top: 4em;
+        margin-left: 2em;
+
+    }
+
+    .newslettertext h1 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .newslettertext h2 {
+        font-size: 24px;
+        font-weight: 400;
+        margin-top: 1em;
+    }
+
+    /* microinteraction newsletter button */
+    .newslettercontainer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    .newslettercontent {
+        /* width: 360px;
+        height: 40px; */
+        width: 350px;
+        height: 50px;
+        /* box-shadow: 2px 4px 10px rgba(0, 0, 0, .2); */
+        /* border-radius: 60px; */
+        overflow: hidden;
+    }
+
+    .subscription {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .before-submit {
+        padding: 4px;
+    }
+
+    .after-submit {
+        padding: 4px;
+    }
+
+    .subscription .add-email {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+        outline: none;
+        padding: 0 20px;
+    }
+
+    .subscription .submit-email {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: calc(100% - 2px);
+        width: 100px;
+        border: none;
+        /* border-radius: 60px; */
+        outline: none;
+        margin: 1px;
+        padding: 0 0px;
+        cursor: pointer;
+        background: var(--darkgreen);
+        color: #FFFFFF;
+        transition: width .35s ease-in-out,
+            background .35s ease-in-out;
+    }
+
+    .subscription.done .submit-email {
+        width: calc(100% - 2px);
+        background: var(--darkgreen);
+    }
+
+    .subscription .submit-email .before-submit,
+    .subscription .submit-email .after-submit {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        line-height: 38px;
+        transition: visibility .35s ease-in-out,
+            opacity .35s ease-in-out;
+    }
+
+    .subscription.done .submit-email .before-submit,
+    .subscription:not(.done) .submit-email .after-submit {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .subscription .submit-email .after-submit {
+        transition-delay: .35s;
+    }
+
+    .subscription:not(.done) .submit-email .before-submit,
+    .subscription.done .submit-email .after-submit {
+        visibility: visible;
+        opacity: 1;
+    }
+
 }
