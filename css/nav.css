@@ -159,46 +159,96 @@ header label {
 @media (max-width: 991px) {
     header {
         padding: 16px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        padding: 0 0px;
     }
 
-    header label {
+
+    header .navbar-two label {
         display: initial;
     }
 
-    header .nav {
+    /* above nav */
+
+    header .navbar-one {
+        padding: 0 16px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: var(--beige);
+        height: 50px;
+        position: fixed;
+        align-items: center;
+        justify-content: space-between;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+
+    }
+
+    .left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .trustpilot-nav img {
+        width: 100%;
+        background-color: none;
+        padding-right: 30px;
+    }
+
+    .navbar-two {
+        padding: 0 16px;
+
+    }
+
+    .nav {
         position: absolute;
-        top: 100%;
+        top: 0;
         left: 0;
         right: 0;
         background: var(--sand);
         display: none;
     }
 
-    header .nav ul li {
+    .navbar-two .nav ul li {
         width: 100%;
     }
 
-    header .nav ul li ul {
+    .navbar-two .nav ul li ul {
         position: relative;
         width: 100%;
     }
 
     #menu-bar:checked~.nav {
         display: initial;
+        margin-top: 4em;
     }
 
-    .nav__listitemdrop {
+    .navbar-two .nav__listitemdrop {
         border: none;
     }
 
-    header .logo {
+    .navbar-two .logo {
         font-size: 32px;
         color: var(--black);
+
     }
 
-    header label {
+    .navbar-two label {
         color: var(--black);
-        font-family: 'Schibsted Grotesk', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 24px;
     }
 }
