@@ -358,7 +358,44 @@ main {
     transition: all 1s ease;
 }
 
+#b2bservice {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 500px;
+}
 
+.b2btext {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.b2btext h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--orange);
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.b2btext h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--orange);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.manual {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    height: 600px;
+    width: 800px;
+
+}
+
+.manu
 /* product list */
 
 .childgrid {
