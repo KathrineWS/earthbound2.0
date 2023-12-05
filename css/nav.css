@@ -59,9 +59,9 @@ header {
 }
 
 .trustpilot-nav img {
-    width: 100%;
+    width: 60%;
     background-color: none;
-    padding-right: 30px;
+
 }
 
 
@@ -152,7 +152,89 @@ header label {
     display: none;
 }
 
-/* footer */
+/*footer*/
+footer {
+    background-color: var(--sand);
+
+}
+
+.footer-grid {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 300px;
+    /* border-top: solid #7E49F2 0.1em; */
+}
+
+
+.left-footer {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.left-footer .logo-footer {
+    color: var(--black);
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 10px;
+    margin-top: 2em;
+    padding: 0 138px;
+
+}
+
+.left-footer .icon-footer {
+    display: flex;
+    flex-direction: row;
+    padding: 0 138px;
+
+}
+
+.left-footer .icon-footer .fb-footer {
+    margin-right: 10px;
+
+}
+
+.right-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0 138px;
+    list-style: none;
+}
+
+.footer-text {
+    display: flex;
+    grid-column: 2/6;
+    gap: 2rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-text p {
+    color: var(--black);
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 18;
+    margin-bottom: 1em;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+    color: var(--black);
+}
+
+
+.copyright {
+    grid-column: 1/6;
+    color: var(--black);
+}
+
+
 
 
 
@@ -203,7 +285,7 @@ header label {
     }
 
     .trustpilot-nav img {
-        width: 100%;
+        width: 60%;
         background-color: none;
         padding-right: 30px;
     }
