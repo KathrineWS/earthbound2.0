@@ -286,75 +286,22 @@ main {
 
 }
 
-/*keyframe animations*/
+/* moving logo banner */
 .first {
-    -webkit-animation: bannermove 60s linear infinite;
-    -moz-animation: bannermove 60s linear infinite;
-    -ms-animation: bannermove 60s linear infinite;
-    -o-animation: bannermove 60s linear infinite;
     animation: bannermove 60s linear infinite;
 }
 
 @keyframes bannermove {
     0% {
-        margin-left: 0px;
+        margin-left: 0;
     }
 
     100% {
         margin-left: -1746px;
     }
-
-}
-
-@-moz-keyframes bannermove {
-    0% {
-        margin-left: 0px;
-    }
-
-    100% {
-        margin-left: -1746px;
-    }
-
-}
-
-@-webkit-keyframes bannermove {
-    0% {
-        margin-left: 0px;
-    }
-
-    100% {
-        margin-left: -1746px;
-    }
-
-}
-
-@-ms-keyframes bannermove {
-    0% {
-        margin-left: 0px;
-    }
-
-    100% {
-        margin-left: -1746px;
-    }
-
-}
-
-@-o-keyframes bannermove {
-    0% {
-        margin-left: 0px;
-    }
-
-    100% {
-        margin-left: -1746px;
-    }
-
 }
 
 .logo-black img {
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
     transition: all 1s ease;
 }
 
@@ -959,13 +906,142 @@ button:hover {
 
 
 
-@media (max-width: 500px) {
-    main {
-        background-color: var(--white);
+@media only screen and (max-width: 600px) {
+    .landingblock {
+        grid-template-columns: 1fr;
+        height: 900px;
+        margin-top: 5em;
     }
 
-    .landingblock {
-        width: 100%;
-        height: 75px;
+
+    .landingtext {
+        padding: 0 16px;
+        margin-top: 4em;
+
     }
+
+    .landingtext h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .landingtext h2 {
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 1em;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .landingimg {
+        margin-top: 2em;
+    }
+
+    .giftguideblock {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: var(--darkgreen);
+        height: 450px;
+    }
+
+    .guideblock {
+        width: 50%;
+        margin-left: 220px;
+        align-self: center;
+    }
+
+    .guidetext {
+        color: var(--lightgreen);
+        align-self: center;
+        padding: 0 16px;
+    }
+
+    .guidetext h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        margin-bottom: 2em;
+    }
+
+    .guidetext a {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        background-color: var(--lightgreen);
+        color: var(--black);
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        width: 50%;
+        height: 60px;
+        padding: 15px 20px;
+        justify-self: center;
+    }
+
+    .guidetext a:hover {
+        background-color: var(--black);
+        color: var(--white);
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .top3block {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0px 16px;
+        height: 850px;
+    }
+
+    .top3block h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+        display: flex;
+        text-align: center;
+        height: 100px;
+        margin-top: 1em;
+        justify-self: center;
+        margin-bottom: 0.5em;
+    }
+
+    .top3block .top3link {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4em;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        background-color: var(--darkgreen);
+        color: var(--beige);
+        /* border: 2px solid black; */
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        width: 50%;
+        height: 60px;
+        padding: 20px 20px;
+        justify-self: center;
+    }
+
+    .top3block .top3link:hover {
+        background-color: var(--black);
+        color: var(--beige);
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .top3products {
+        display: flex;
+        flex-direction: row;
+        max-width: 80%;
+        margin-bottom: 1em;
+        justify-self: center;
+    }
+
+    .topproducts {
+        max-width: 100%;
+        padding: 2em;
+
+    }
+
 }
