@@ -283,7 +283,9 @@ button:hover {
     text-decoration: underline;
 }
 
-#productpage {
+/* product page */
+
+.singleproduct {
     margin-top: 5em;
     display: grid;
     grid-template-columns: 1fr 1fr;

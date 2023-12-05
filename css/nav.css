@@ -16,9 +16,60 @@
 
 }
 
-/* nav bar */
+/* header */
 
 header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+
+/* above nav */
+
+.navbar-one {
+    padding: 0 138px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--beige);
+    height: 50px;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.trustpilot-nav img {
+    width: 100%;
+    background-color: none;
+    padding-right: 30px;
+}
+
+
+/* nav bar */
+
+
+.navbar-two {
+    margin-top: 3em;
     position: fixed;
     top: 0;
     left: 0;
@@ -32,7 +83,7 @@ header {
     height: 75px;
 }
 
-header .logo {
+.navbar-two .logo {
     font-size: 20px;
     color: var(--black);
     font-family: 'Cormorant Garamond', serif;
@@ -43,7 +94,8 @@ header .logo {
 
 .nav__listitem {
     list-style: none;
-    font-family: 'Schibsted Grotesk', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 .nav__listitem {

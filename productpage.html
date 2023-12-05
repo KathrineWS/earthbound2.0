@@ -14,44 +14,128 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;700&family=Schibsted+Grotesk:wght@400;600;700&display=swap");
     </style>
-  </head>
-  <body>
-    <header>
-      <a href="index.html" class="logo">Earthbound.</a>
-      <input type="checkbox" id="menu-bar" />
-      <label for="menu-bar">Menu</label>
-      <nav class="nav">
-        <ul>
-          <li class="nav__listitem">
-            <a href="index.html">Guide</a>
-            <ul class="nav__listitemdrop">
-              <li class="li_drop"><a href="menu1.html">⊛ Nav 1</a></li>
-              <li class="li_drop"><a href="menu2.html">⊛ Nav 2</a></li>
-              <li class="li_drop"><a href="menu3.html">⊛ Nav 3</a></li>
-            </ul>
-          </li>
-          <li class="nav__listitem">
-            <a href="productlist.html">Gifts</a>
-            <ul class="nav__listitemdrop">
-              <li class="li_drop"><a href="coding.html">Categories</a></li>
-              <li class="li_drop"><a href="ux.html">Categories</a></li>
-            </ul>
-          </li>
-          <li class="nav__listitem"><a href="index.html">About</a></li>
-          <li class="nav__listitem"><a href="index.html">Blog</a></li>
-        </ul>
-      </nav>
-    </header>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+    </style>
+</head>
+<body>
+  <header>
+    <div class="navbar-one">
+        <div class="left">
+      <div class="trustpilot-nav"><a href="https://www.trustpilot.com" target="_blank"><img src="/assets/logo-black.svg" alt="trustpilot logo in black"></a></div>
+  <h3 class="one-title">4.2</h2></div>
+    <div class="right">
+      <div class="fb-nav"><a href="#" target="_blank"><img src="/assets/icons8-facebook.svg" alt="facebook icon"></a></div> 
+<div class="ig-nav"><a href="#" target="_blank"> <img src="/assets/icons8-instagram-circle.svg" alt="instagram icon"></a></div>
+    </div>
+    </div>
+    <div class="navbar-two">
+    <a href="index.html" class="logo">Earthbound.</a>
+    <input type="checkbox" id="menu-bar" />
+    <label for="menu-bar">Menu</label>
+    <nav class="nav">
+      <ul>
+        <li class="nav__listitem">
+          <a href="giftguide.html">Guide</a>
+          <ul class="nav__listitemdrop">
+            <li class="li_drop"><a href="menu1.html">⊛ Nav 1</a></li>
+            <li class="li_drop"><a href="menu2.html">⊛ Nav 2</a></li>
+            <li class="li_drop"><a href="menu3.html">⊛ Nav 3</a></li>
+          </ul>
+        </li>
+        <li class="nav__listitem">
+          <a href="productlist.html">Gifts</a>
+          <ul class="nav__listitemdrop">
+            <li class="li_drop"><a href="coding.html">Categories</a></li>
+            <li class="li_drop"><a href="ux.html">Categories</a></li>
+          </ul>
+        </li>
+        <li class="nav__listitem"><a href="index.html">About</a></li>
+        <li class="nav__listitem"><a href="index.html">Blog</a></li>
+      </ul>
+    </nav></div>
+  </header>
     <main>
       <div id="productpage">
-        <img class="product_img" src="" alt="" />
-        <div class="product_info">
-          <h2>Product name</h2>
-          <p></p>
+        <div class="singleproduct">
+          <img class="product_img" src="" alt="" />
+          <div class="product_info">
+            <h2>Product name</h2>
+            <p>text text</p>
+          </div>
+        </div>
+        <div id="b2bservice">
+          <div class="servicetext">
+            <h1>We are here to help..</h1>
+            <h2>Also after you've purchased your gift</h2>
+          </div>
+          <div class="steps">
+            <p>
+              Compelling subtext <br />
+              in two lines
+            </p>
+            <p>
+              Compelling subtext <br />
+              in two lines
+            </p>
+            <p>
+              Compelling subtext <br />
+              in two lines
+            </p>
+          </div>
+        </div>
+        <div class="top3block">
+          <h2>Top 3 picks right now</h2>
+          <a href="productlist.html">Gifts</a>
+          <div class="top3products">
+            <div class="topproducts">
+              <img
+                src="/assets/bottle-w-design copy.jpg"
+                alt="bottle with design"
+              />
+              <h3>Product name</h3>
+            </div>
+            <div class="topproducts">
+              <img
+                src="/assets/bottle-w-design copy.jpg"
+                alt="bottle with design"
+              />
+              <h3>Product name</h3>
+            </div>
+            <div class="topproducts">
+              <img
+                src="/assets/bottle-w-design copy.jpg"
+                alt="bottle with design"
+              />
+              <h3>Product name</h3>
+            </div>
+          </div>
+        </div>
+        <div id="newsletter">
+          <div class="newslettertext">
+            <h1>Subscribe</h1>
+            <h2>To keep up with the latest trends</h2>
+          </div>
+          <div class="newslettercontainer">
+            <div class="newslettercontent">
+              <form class="subscription">
+                <input
+                  class="add-email"
+                  type="email"
+                  placeholder="subscribe@me.now"
+                />
+                <button class="submit-email" type="button">
+                  <span class="before-submit">Subscribe</span>
+                  <span class="after-submit">Thank you!</span>
+                </button>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </main>
 
     <script src="/js/productpage.js"></script>
+    <script src="guideresult.js"></script>
   </body>
 </html>
