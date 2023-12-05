@@ -208,6 +208,11 @@ header label {
         padding-right: 30px;
     }
 
+    .trustpilot-nav h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+
     .navbar-two {
         padding: 0 16px;
 

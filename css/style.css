@@ -13,6 +13,7 @@ main {
     box-sizing: border-box;
     /* padding: 0px 138px; */
     background-color: var(--white);
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Landing page */
@@ -29,34 +30,33 @@ main {
     display: flex;
     flex-direction: column;
     padding: 0px 138px;
-    margin-top: 10em;
+    margin-top: 12em;
 }
 
 .landingtext h1 {
-    font-family: 'Schibsted Grotesk', sans-serif;
     font-size: 42px;
     font-weight: 700;
 }
 
 .landingtext h2 {
-    font-family: 'Schibsted Grotesk', sans-serif;
-    font-size: 36px;
+    margin-top: 1em;
+    font-size: 28px;
     font-weight: 400;
 }
 
 .landingtext a {
-    font-family: 'Schibsted Grotesk', sans-serif;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 400;
-    background-color: var(--beige);
-    color: var(--black);
-    border: 2px solid black;
+    background-color: var(--orange);
+    color: var(--white);
+    margin-top: 5em;
+    /* border: 2px solid black; */
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    width: 40%;
+    width: 50%;
     height: 60px;
-    padding: 15px 20px;
+    padding: 20px 20px;
     justify-self: center;
 
 
@@ -64,14 +64,23 @@ main {
 
 .landingtext a:hover {
     background-color: var(--black);
-    color: var(--beige);
+    color: var(--white);
     text-align: center;
     text-decoration: none;
 }
 
-/* .landingimg {
-    height: 500px;
-} */
+.landingimg {
+    margin-top: 4em;
+    width: 100%;
+    padding: 0px 0px;
+    overflow: hidden;
+}
+
+.landingimg img {
+    width: 100%;
+    padding: 0px 0px;
+
+}
 
 .giftguideblock {
     display: grid;
@@ -82,34 +91,32 @@ main {
 
 .guideblock {
     width: 50%;
-    margin-left: 138px;
+    margin-left: 220px;
+    align-self: center;
 }
 
 .guidetext {
     color: var(--lightgreen);
-    margin-top: 6em;
-    align-self: auto;
+    align-self: center;
 }
 
 .guidetext h2 {
-    font-family: 'Schibsted Grotesk', sans-serif;
-    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
     font-weight: 400;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 .guidetext a {
-
-    font-family: 'Schibsted Grotesk', sans-serif;
-    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
     font-weight: 400;
     background-color: var(--lightgreen);
     color: var(--black);
-    border: 2px solid black;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    width: 40%;
+    width: 50%;
     height: 60px;
     padding: 15px 20px;
     justify-self: center;
@@ -117,7 +124,7 @@ main {
 
 .guidetext a:hover {
     background-color: var(--black);
-    color: var(--beige);
+    color: var(--white);
     text-align: center;
     text-decoration: none;
 }
@@ -131,9 +138,13 @@ main {
 }
 
 .top3block h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
     display: flex;
+    text-align: center;
     height: 100px;
-    margin-top: 2em;
+    margin-top: 1em;
     justify-self: center;
 }
 
@@ -141,8 +152,8 @@ main {
     display: flex;
     justify-content: center;
     margin-bottom: 1em;
-    font-family: 'Schibsted Grotesk', sans-serif;
-    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
     font-weight: 400;
     background-color: var(--darkgreen);
     color: var(--beige);
@@ -152,7 +163,7 @@ main {
     text-decoration: none;
     width: 20%;
     height: 60px;
-    padding: 15px 20px;
+    padding: 20px 20px;
     justify-self: center;
 }
 
@@ -166,14 +177,16 @@ main {
 .top3products {
     display: flex;
     flex-direction: row;
-    max-width: 80%;
+    max-width: 100%;
     margin-bottom: 5em;
     justify-self: center;
 }
 
-.topproducts {
-    max-width: 100%;
-    padding: 2em;
+.topproducts a {
+    width: 100px;
+    height: 100px;
+    display: block;
+
 
 }
 
