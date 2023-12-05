@@ -21,9 +21,25 @@ fetch(url, options)
   .then((data) => {
     productData = data;
     console.log(data);
-    // handleData(data);
+    handleData(data);
   })
 
   .catch((e) => {
     console.error("An error occured", e.message);
   });
+
+function handleData(earthbound) {
+  earthbound.forEach((product) => {
+    //console.log(product)
+    const template = document.querySelector("template").content;
+    const clone = template.cloneNode(true);
+    clone.querySelector("h2").textContent = product.product_name;
+    clone.querySelector("p span").textContent = product.price_from;
+    clone.querySelector("img").src = product.productimg_url;
+    clone.querySelector(
+      ".linkhtml"
+    ).href = `productpage.html?id=${product._id}`;
+    const mainEl = document.querySelector("#gggrid");
+    mainEl.appendChild(clone);
+  });
+}
