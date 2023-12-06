@@ -58,6 +58,22 @@ header {
     align-items: center;
 }
 
+.login-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.login-nav img {
+    margin-right: 10px;
+}
+
+.login-nav a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 14px;
+    width: 150px;
+}
+
 .trustpilot-nav img {
     width: 60%;
     background-color: none;
@@ -103,8 +119,12 @@ header {
     float: left;
 }
 
+.nav__listitem img {
+    width: 20px;
+}
+
 header .nav ul li a {
-    font-size: 20px;
+    font-size: 18px;
     padding: 20px;
     color: var(--black);
     display: block;
