@@ -132,7 +132,7 @@ main {
     text-decoration: none;
 }
 
-.top3block {
+#topblok {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -140,7 +140,7 @@ main {
     height: 850px;
 }
 
-.top3block h2 {
+#topblok h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 32px;
@@ -152,7 +152,7 @@ main {
     margin-bottom: 0.5em;
 }
 
-.top3block .top3link {
+#topblok .top3link {
     display: flex;
     justify-content: center;
     margin-bottom: 4em;
@@ -171,14 +171,14 @@ main {
     justify-self: center;
 }
 
-.top3block .top3link:hover {
+.topblok .top3link:hover {
     background-color: var(--black);
     color: var(--beige);
     text-align: center;
     text-decoration: none;
 }
 
-.top3products {
+.three-prod {
     display: flex;
     flex-direction: row;
     max-width: 80%;
@@ -186,10 +186,24 @@ main {
     justify-self: center;
 }
 
-.topproducts {
+.three-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.three-content img {
     max-width: 100%;
     padding: 2em;
+    height: 500px;
 
+}
+
+.three-content h3 p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 138px;
 }
 
 .reviews {
@@ -259,12 +273,11 @@ main {
     justify-self: center;
 }
 
-.logo-banner {
-    height: 180px;
-    overflow: hidden;
+#logo-banner {
+    height: 150px;
 }
 
-.logo-banner .logo-titel {
+.logo-titel {
     display: flex;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -276,20 +289,21 @@ main {
 
 .logo-black {
     width: 1800px;
-    margin-bottom: 80px;
-    height: 180px;
+    margin-bottom: 8em;
+    height: 80px;
 }
 
 .logo-black img {
     padding-left: 2em;
-    height: 500px;
+    height: 100px;
     width: 200px;
+    transition: all 1s ease;
 
 }
 
 /* moving logo banner */
-.first {
-    animation: bannermove 60s linear infinite;
+.logo-black .first-banner {
+    animation: bannermove 20s linear infinite;
 }
 
 @keyframes bannermove {
@@ -302,9 +316,6 @@ main {
     }
 }
 
-.logo-black img {
-    transition: all 1s ease;
-}
 
 #b2bservice {
     display: grid;
@@ -649,6 +660,12 @@ main {
     color: var(--white);
     text-align: center;
     text-decoration: none;
+}
+
+.susimg {
+    width: 100%;
+    overflow: hidden;
+
 }
 
 /* product page */
@@ -1091,17 +1108,18 @@ main {
         text-decoration: none;
     }
 
-    .top3block {
+    #topblok {
         display: grid;
         grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         padding: 0px 16px;
-        height: 850px;
+        height: 1700px;
     }
 
-    .top3block h2 {
+    #topblok h2 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
-        font-size: 28px;
+        font-size: 24px;
         display: flex;
         text-align: center;
         height: 100px;
@@ -1110,7 +1128,7 @@ main {
         margin-bottom: 0.5em;
     }
 
-    .top3block .top3link {
+    #topblok .top3link {
         display: flex;
         justify-content: center;
         margin-bottom: 4em;
@@ -1123,31 +1141,45 @@ main {
         cursor: pointer;
         text-align: center;
         text-decoration: none;
-        width: 50%;
+        width: 40%;
         height: 60px;
         padding: 20px 20px;
         justify-self: center;
     }
 
-    .top3block .top3link:hover {
+    .topblok .top3link:hover {
         background-color: var(--black);
         color: var(--beige);
         text-align: center;
         text-decoration: none;
     }
 
-    .top3products {
+    .three-prod {
         display: flex;
-        flex-direction: row;
-        max-width: 80%;
+        flex-direction: column;
+        max-width: 100%;
         margin-bottom: 1em;
         justify-self: center;
     }
 
-    .topproducts {
+    .three-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    .three-content img {
         max-width: 100%;
         padding: 2em;
+        height: 400px;
 
+    }
+
+    .three-content h3 p {
+        font-family: 'Montserrat', sans-serif;
+        padding: 0 138px;
     }
 
     .reviews {
@@ -1216,52 +1248,7 @@ main {
         justify-self: center;
     }
 
-    .logo-banner {
-        height: 180px;
-        overflow: hidden;
-    }
 
-    .logo-banner .logo-titel {
-        display: flex;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 18px;
-        font-weight: 400;
-        justify-content: center;
-        padding: 0 138px;
-        margin-top: 10px;
-    }
-
-    .logo-black {
-        width: 1800px;
-        margin-bottom: 80px;
-        height: 180px;
-    }
-
-    .logo-black img {
-        padding-left: 2em;
-        height: 500px;
-        width: 200px;
-
-    }
-
-    /* moving logo banner */
-    .first {
-        animation: bannermove 60s linear infinite;
-    }
-
-    @keyframes bannermove {
-        0% {
-            margin-left: 0;
-        }
-
-        100% {
-            margin-left: -1746px;
-        }
-    }
-
-    .logo-black img {
-        transition: all 1s ease;
-    }
 
     #b2bservice {
         display: grid;
