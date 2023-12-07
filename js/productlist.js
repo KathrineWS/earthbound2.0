@@ -29,7 +29,7 @@ function handleData(earthbound) {
     const template = document.querySelector("template").content;
     const clone = template.cloneNode(true);
     clone.querySelector("h2").textContent = product.product_name;
-    clone.querySelector("p").textContent = product.price_from;
+    clone.querySelector(".pricespan").textContent = product.price_from;
     clone.querySelector("img").src = product.productimg_url;
     clone.querySelector(
       ".linkhtml"
