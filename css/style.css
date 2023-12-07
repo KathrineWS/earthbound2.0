@@ -377,7 +377,7 @@ main {
     background-color: var(--darkgreen);
     display: flex;
     flex-direction: column;
-    width: 850px;
+    width: 840px;
     padding: 0 138px;
 
 }
@@ -436,12 +436,8 @@ main {
 }
 
 .newslettercontent {
-    /* width: 360px;
-    height: 40px; */
     width: 500px;
     height: 50px;
-    /* box-shadow: 2px 4px 10px rgba(0, 0, 0, .2); */
-    /* border-radius: 60px; */
     overflow: hidden;
 }
 
@@ -1110,7 +1106,6 @@ main {
 
 /* giftguide result page */
 
-
 .contentwrapper {
     margin-top: 4em;
     margin-bottom: 2em;
@@ -1119,42 +1114,57 @@ main {
     grid-template-columns: 1fr 1fr;
     background-color: var(--beige);
     max-width: 100%;
-    padding: 0px 138px;
 
 }
 
 .resulttext {
-    margin-top: 4em;
-    font-family: 'Schibsted Grotesk', sans-serif;
-
+    display: flex;
+    flex-direction: column;
+    padding: 0px 138px;
+    margin-top: 6em;
 }
 
 .resulttext h1 {
+    font-family: 'Montserrat', sans-serif;
     font-size: 42px;
     font-weight: 700;
+    width: 800px;
 }
 
 .resulttext h2 {
-    font-size: 32px;
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 2em;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .contentwrapper img {
+    display: flex;
+    align-self: center;
     max-width: 100%;
-    max-height: 400px;
+    max-height: 350px;
+    margin-top: 45px;
 
 }
 
-#gggrid {
+#resultgrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0px 138px;
+    max-width: 100%;
+    max-height: 100%;
+    gap: 1rem;
 }
 
 .ggcontent {
-    max-width: 80%;
-    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
+}
+
+.ggcontent img {
+    width: 100%;
+    height: 80%;
 }
 
 .producttext {
@@ -1163,7 +1173,6 @@ main {
 }
 
 .resultbuttons {
-    margin-top: 2em;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1171,29 +1180,113 @@ main {
 }
 
 .resultbuttons a {
-    font-family: 'Schibsted Grotesk', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    background-color: var(--white);
-    color: var(--black);
-    border: 2px solid var(--darkgreen);
+    background-color: var(--darkgreen);
+    color: var(--white);
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     width: 20%;
     height: 80px;
-    padding: 25px 20px;
+    padding: 30px 20px;
     justify-self: center;
     margin: 2em;
 }
 
 .resultbuttons a:hover {
-    background-color: var(--darkgreen);
-    color: var(--beige);
+    background-color: var(--black);
+    color: var(--white);
     text-align: center;
     text-decoration: none;
+
 }
 
+.contactus {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+    height: 600px;
+    background-color: var(--sand);
+}
+
+.forminfo {
+    background-color: var(--white);
+    padding: 0 138px;
+}
+
+.forminfo h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 2em;
+}
+
+.forminfo p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 1em;
+}
+
+.form {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 0 138px;
+    height: 300px;
+    justify-content: center;
+}
+
+.formtext {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 4em;
+    height: 100px;
+}
+
+.contactform {
+    width: 100%;
+    height: 30px;
+
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: var(--orange);
+    color: var(--white);
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    width: 30%;
+    height: 50px;
+    justify-self: center;
+    border: none;
+}
+
+input[type=submit]:hover {
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+
+}
 
 
 @media only screen and (max-width: 600px) {

@@ -39,7 +39,7 @@ function handleData(earthbound) {
     clone.querySelector(
       ".linkhtml"
     ).href = `productpage.html?id=${product._id}`;
-    const mainEl = document.querySelector("#gggrid");
+    const mainEl = document.querySelector("#resultgrid");
     mainEl.appendChild(clone);
   });
 }
