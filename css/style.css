@@ -1383,6 +1383,19 @@ input[type=submit]:hover {
     text-decoration: none;
 }
 
+/* platform page */
+.platformimg {
+    margin-top: 10em;
+    width: 100%;
+    padding: 0px 0px;
+}
+
+.platform img {
+    width: 100%;
+    padding: 0px 0px;
+
+}
+
 
 
 
@@ -2521,6 +2534,19 @@ input[type=submit]:hover {
         color: var(--white);
         text-align: center;
         text-decoration: none;
+    }
+
+    /* platform page */
+    .platformimg {
+        margin-top: 2em;
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    .platform img {
+        width: 100%;
+        padding: 0px 0px;
+
     }
 
 
