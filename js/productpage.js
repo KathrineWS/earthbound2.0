@@ -31,5 +31,6 @@ function handleData(product) {
   console.log(product);
   document.querySelector("h2").textContent = product.product_name;
   document.querySelector(".product_img").src = product.productimg_url;
-  document.querySelector("p").textContent = product.description;
+  document.querySelector(".description").textContent = product.description;
+  document.querySelector(".pricespan").textContent = product.price_from;
 }

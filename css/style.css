@@ -580,6 +580,7 @@ main {
 
 .listcontent {
     max-width: 100%;
+    height: 100%;
     justify-content: center;
 
 }
@@ -590,8 +591,8 @@ main {
 }
 
 .listcontent img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 80%;
 }
 
 .listcontent h2 {
@@ -694,55 +695,202 @@ main {
 /* product page */
 
 .singleproduct {
-    margin-top: 5em;
+    position: relative;
+    top: 60px;
+    bottom: 100px;
+    margin-top: 4em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 100%;
+    height: 900px;
+    padding: 0 138px;
 }
 
-.product_img {
+.singleimgimg {
     max-width: 100%;
     max-height: 100%;
 
 }
 
-.product_info {
-    font-family: 'Schibsted Grotesk', sans-serif;
+.singleimg img {
+    width: 600px;
+    height: 800px;
+}
+
+.single-info {
+    height: 300px;
+    max-width: 100%;
+}
+
+.single-info .name-price {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+
+}
+
+.name-price h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    margin-right: 2em;
+    margin-bottom: 1em;
+}
+
+.name-price p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 1.5em;
+
+}
+
+.descrip {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.5px solid var(--black);
+}
+
+.descrip h3 {
+    padding-right: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: grey;
+}
+
+.descrip .descrip-one {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.single-info .description {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 100px 0 0;
+    font-size: 18px;
+    margin-top: 1em;
+    height: 100px;
+    border-bottom: 0.5px solid var(--black);
+}
+
+.model {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 2em;
+    height: 100px;
+    border-bottom: 0.5px solid var(--black);
+}
+
+.model h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.model p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 1em;
+}
+
+.size {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 2em;
+    height: 100px;
+    border-bottom: 0.5px solid var(--black);
+}
+
+.size h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.size p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 1em;
+}
+
+.personalize {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 2em;
+
+}
+
+.personalize h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.personalize p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 1em;
+}
+
+.cart {
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    font-weight: 400;
+    background-color: var(--darkgreen);
+    color: var(--white);
+    margin-top: 2em;
+    /* border: 2px solid black; */
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    width: 40%;
+    height: 60px;
+    padding: 20px 20px;
+    justify-self: center;
+    border: none;
+}
+
+.cart:hover {
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
 }
 
 .other-products {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    height: 800px;
-}
-
-.threeother {
-    display: flex;
-    flex-direction: row;
-    max-width: 60%;
-    margin-bottom: 1em;
-    justify-self: center;
     height: 700px;
-
-}
-
-.three-products {
-    margin: 1em;
+    padding: 0 138px;
 }
 
 .other-products h2 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     font-size: 32px;
-    display: flex;
-    text-align: center;
-    height: 100px;
-    margin-top: 1em;
+    font-weight: 400;
     justify-self: center;
-    margin-bottom: 0.5em;
+    margin-top: 1em;
 }
+
+.prod-sugg {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+.sugg img {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 500px;
+}
+
+.sugg h3 p {
+    margin-top: 1em;
+}
+
 
 /* Gift guide page */
 
@@ -1682,5 +1830,211 @@ main {
 
     }
 
+    /* product page */
+
+    .singleproduct {
+        position: relative;
+        top: 60px;
+        bottom: 100px;
+        margin-top: 4em;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: 1400px;
+        padding: 0 16px;
+    }
+
+    .singleimgimg {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        max-height: 100%;
+
+    }
+
+    .singleimg img {
+        width: 100%;
+        height: 700px;
+    }
+
+    .single-info {
+        height: 300px;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .single-info .name-price {
+        display: flex;
+        flex-direction: row;
+        margin-top: 2em;
+
+    }
+
+    .name-price h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        margin-right: 2em;
+        margin-bottom: 1em;
+    }
+
+    .name-price p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        margin-top: 1em;
+
+    }
+
+    .descrip {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 0.5px solid var(--black);
+    }
+
+    .descrip h3 {
+        padding-right: 2em;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: grey;
+    }
+
+    .descrip .descrip-one {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: var(--black);
+    }
+
+    .single-info .description {
+        font-family: 'Montserrat', sans-serif;
+        padding: 0 100px 0 0;
+        font-size: 14px;
+        margin-top: 1em;
+        height: 100px;
+        border-bottom: 0.5px solid var(--black);
+    }
+
+    .model {
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 2em;
+        height: 100px;
+        border-bottom: 0.5px solid var(--black);
+    }
+
+    .model h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 21px;
+        font-weight: 400;
+    }
+
+    .model p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 1em;
+    }
+
+    .size {
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 2em;
+        height: 100px;
+        border-bottom: 0.5px solid var(--black);
+    }
+
+    .size h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 21px;
+        font-weight: 400;
+    }
+
+    .size p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 1em;
+    }
+
+    .personalize {
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 2em;
+
+    }
+
+    .personalize h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 21px;
+        font-weight: 400;
+    }
+
+    .personalize p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 1em;
+    }
+
+    .cart {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        background-color: var(--darkgreen);
+        color: var(--white);
+        margin-top: 2em;
+        /* border: 2px solid black; */
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        width: 40%;
+        height: 60px;
+        padding: 20px 20px;
+        justify-self: center;
+        border: none;
+    }
+
+    .cart:hover {
+        background-color: var(--black);
+        color: var(--white);
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .other-products {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        height: 900px;
+        padding: 0 16px;
+    }
+
+    .other-products h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 32px;
+        font-weight: 400;
+        justify-self: center;
+        margin-top: 1em;
+    }
+
+    .prod-sugg {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: 700px;
+        margin-top: 1em;
+        overflow: scroll;
+        margin-bottom: 3em;
+    }
+
+    .sugg img {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+
+    }
+
+    .sugg h3 p {
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
 
 }
