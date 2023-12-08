@@ -896,16 +896,17 @@ main {
     margin-top: 3em;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     justify-content: center;
     height: 830px;
+    background-color: var(--beige);
 
 }
 
 #giftguide h1 {
     margin-top: 5em;
     height: 100px;
-    font-family: 'Schibsted Grotesk', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 32px;
     color: var(--black);
@@ -914,12 +915,11 @@ main {
 }
 
 .guidebutton {
-    font-family: 'Schibsted Grotesk', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 21px;
     font-weight: 400;
-    background-color: var(--beige);
-    color: var(--black);
-    border: 2px solid black;
+    background-color: var(--darkgreen);
+    color: var(--white);
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -927,13 +927,14 @@ main {
     height: 100px;
     padding: 40px 40px;
     justify-self: center;
+    margin: 2em;
 
 
 }
 
 .guidebutton:hover {
     background-color: var(--black);
-    color: var(--beige);
+    color: var(--white);
     text-align: center;
     text-decoration: none;
 }
@@ -945,6 +946,7 @@ main {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     background-image: url(/assets/Artboard\ 3.svg);
+    background-color: var(--beige);
     background-repeat: no-repeat;
     margin-top: 3em;
     justify-content: center;
@@ -955,7 +957,7 @@ main {
 #step1 h1 {
     margin-top: 5em;
     height: 100px;
-    font-family: 'Schibsted Grotesk', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 32px;
     color: var(--black);
@@ -970,12 +972,11 @@ main {
 }
 
 .pricebutton {
-    font-family: 'Schibsted Grotesk', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 21px;
     font-weight: 400;
-    background-color: var(--beige);
-    color: var(--black);
-    border: 2px solid black;
+    background-color: var(--darkgreen);
+    color: var(--white);
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -984,12 +985,11 @@ main {
     padding: 40px 40px;
     justify-self: center;
     margin: 2em;
-    margin-bottom: 100%;
 }
 
 .pricebutton:hover {
     background-color: var(--black);
-    color: var(--beige);
+    color: var(--white);
     text-align: center;
     text-decoration: none;
 }
@@ -1001,6 +1001,7 @@ main {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     background-image: url(/assets/Artboard\ 3.svg);
+    background-color: var(--beige);
     background-repeat: no-repeat;
     margin-top: 3em;
     justify-content: center;
@@ -1011,7 +1012,7 @@ main {
 #step2 h1 {
     margin-top: 5em;
     height: 100px;
-    font-family: 'Schibsted Grotesk', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 32px;
     color: var(--black);
@@ -1026,12 +1027,11 @@ main {
 }
 
 .catbutton {
-    font-family: 'Schibsted Grotesk', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 21px;
     font-weight: 400;
-    background-color: var(--beige);
-    color: var(--black);
-    border: 2px solid black;
+    background-color: var(--darkgreen);
+    color: var(--white);
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -1044,7 +1044,7 @@ main {
 
 .catbutton:hover {
     background-color: var(--black);
-    color: var(--beige);
+    color: var(--white);
     text-align: center;
     text-decoration: none;
 }
@@ -1056,6 +1056,7 @@ main {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     background-image: url(/assets/Artboard\ 3.svg);
+    background-color: var(--beige);
     background-repeat: no-repeat;
     margin-top: 3em;
     justify-content: center;
@@ -1066,7 +1067,7 @@ main {
 #step3 h1 {
     margin-top: 5em;
     height: 100px;
-    font-family: 'Schibsted Grotesk', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 32px;
     color: var(--black);
@@ -1081,12 +1082,11 @@ main {
 }
 
 .selecbutton {
-    font-family: 'Schibsted Grotesk', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 21px;
     font-weight: 400;
-    background-color: var(--beige);
-    color: var(--black);
-    border: 2px solid black;
+    background-color: var(--darkgreen);
+    color: var(--white);
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -1099,7 +1099,7 @@ main {
 
 .selecbutton:hover {
     background-color: var(--black);
-    color: var(--beige);
+    color: var(--white);
     text-align: center;
     text-decoration: none;
 }
@@ -1261,6 +1261,7 @@ main {
 
 input[type=text],
 textarea {
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
     padding: 12px;
     box-sizing: border-box;
@@ -2524,6 +2525,231 @@ input[type=submit]:hover {
         margin-bottom: 2em;
     }
 
+    /* Gift guide page */
+
+    #giftguide {
+        background-image: url(/assets/Artboard\ 3.svg);
+        background-repeat: no-repeat;
+        margin-top: 5em;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        height: 830px;
+        background-color: var(--beige);
+
+    }
+
+    #giftguide h1 {
+        margin-top: 2em;
+        height: 100px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        color: var(--black);
+        text-align: center;
+
+    }
+
+    .guidebutton {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 21px;
+        font-weight: 400;
+        background-color: var(--darkgreen);
+        color: var(--white);
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        width: 40%;
+        height: 60px;
+        padding: 20px 40px;
+        justify-self: center;
+        margin-bottom: 40em;
+
+
+    }
+
+    .guidebutton:hover {
+        background-color: var(--black);
+        color: var(--white);
+        text-align: center;
+        text-decoration: none;
+    }
+
+    /* step1 page */
+
+    #step1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        background-image: url(/assets/Artboard\ 3.svg);
+        background-color: var(--beige);
+        background-repeat: no-repeat;
+        margin-top: 5em;
+        justify-content: center;
+        height: 830px;
+
+    }
+
+    #step1 h1 {
+        margin-top: 2em;
+        height: 100px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        color: var(--black);
+        text-align: center;
+    }
+
+    .pricegrid {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        margin-bottom: 50em;
+
+    }
+
+    .pricebutton {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 21px;
+        font-weight: 400;
+        background-color: var(--darkgreen);
+        color: var(--white);
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        width: 90%;
+        height: 50px;
+        padding: 40px 40px;
+        justify-self: center;
+        margin: 1em;
+    }
+
+    .pricebutton:hover {
+        background-color: var(--black);
+        color: var(--white);
+        text-align: center;
+        text-decoration: none;
+    }
+
+    /* step2 page */
+
+    #step2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        background-image: url(/assets/Artboard\ 3.svg);
+        background-color: var(--beige);
+        background-repeat: no-repeat;
+        margin-top: 5em;
+        justify-content: center;
+        height: 830px;
+
+    }
+
+    #step2 h1 {
+        margin-top: 2em;
+        height: 100px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        color: var(--black);
+        text-align: center;
+        width: 600px;
+        padding: 0 16px;
+    }
+
+
+    .catgrid {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        margin-bottom: 50em;
+
+    }
+
+    .catbutton {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 21px;
+        font-weight: 400;
+        background-color: var(--darkgreen);
+        color: var(--white);
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        width: 90%;
+        height: 50px;
+        padding: 40px 40px;
+        justify-self: center;
+        margin: 1em;
+    }
+
+    .catbutton:hover {
+        background-color: var(--black);
+        color: var(--white);
+        text-align: center;
+        text-decoration: none;
+    }
+
+    /* step3 page */
+
+    #step3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        background-image: url(/assets/Artboard\ 3.svg);
+        background-color: var(--beige);
+        background-repeat: no-repeat;
+        margin-top: 5em;
+        justify-content: center;
+        height: 830px;
+
+    }
+
+    #step3 h1 {
+        margin-top: 2em;
+        height: 100px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        width: 500px;
+        justify-self: center;
+        color: var(--black);
+        text-align: center;
+    }
+
+    .selectiongrid {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50em;
+        justify-self: center;
+
+    }
+
+    .selecbutton {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 21px;
+        font-weight: 400;
+        background-color: var(--darkgreen);
+        color: var(--white);
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        width: 80%;
+        height: 50px;
+        padding: 45px 40px;
+        margin: 2em;
+
+    }
+
+    .selecbutton:hover {
+        background-color: var(--black);
+        color: var(--white);
+        text-align: center;
+        text-decoration: none;
+    }
+
+
     /* result page */
 
     .contentwrapper {
@@ -2658,7 +2884,7 @@ input[type=submit]:hover {
 
     .forminfo p {
         font-family: 'Montserrat', sans-serif;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         margin-top: 1em;
         width: 500px;
@@ -2680,13 +2906,13 @@ input[type=submit]:hover {
         display: flex;
         flex-direction: column;
         width: 500px;
-        margin-top: 1em;
+        margin-top: 0em;
         height: 100px;
     }
 
     .contactform {
         width: 100%;
-        height: 600px;
+        height: 500px;
         padding: 0 16px;
 
     }
@@ -2984,64 +3210,6 @@ input[type=submit]:hover {
         margin-top: 1em;
         width: 500px;
         height: 100px;
-    }
-
-    .form {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-        padding: 0 16px;
-        height: 500px;
-        justify-content: center;
-    }
-
-    .formtext {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 18px;
-        font-weight: 400;
-        display: flex;
-        flex-direction: column;
-        width: 500px;
-        margin-top: 4em;
-        height: 100px;
-    }
-
-    .contactform {
-        width: 100%;
-        height: 600px;
-        padding: 0 16px;
-
-    }
-
-    input[type=text] {
-        width: 100%;
-        padding: 12px;
-        box-sizing: border-box;
-        margin-top: 6px;
-        margin-bottom: 16px;
-        resize: vertical
-    }
-
-    input[type=submit] {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 18px;
-        font-weight: 400;
-        background-color: var(--orange);
-        color: var(--white);
-        cursor: pointer;
-        text-align: center;
-        text-decoration: none;
-        width: 30%;
-        height: 50px;
-        justify-self: center;
-        border: none;
-    }
-
-    input[type=submit]:hover {
-        background-color: var(--black);
-        color: var(--white);
-        text-align: center;
-        text-decoration: none;
-
     }
 
     /* log in page */

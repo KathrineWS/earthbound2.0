@@ -376,11 +376,13 @@ footer ul {
 
     .navbar-two .nav ul li {
         width: 100%;
+        border-bottom: 1px solid var(--black);
     }
 
     .navbar-two .nav ul li ul {
         position: relative;
         width: 100%;
+
     }
 
     #menu-bar:checked~.nav {
