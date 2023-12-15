@@ -595,12 +595,17 @@ main {
     font-family: 'Montserrat', sans-serif;
 }
 
+.gridchild {
+    border-bottom: 1px solid var(--black);
+    padding: 0 500px;
+}
+
+
 #child1-main-left button {
     background-color: var(--white);
     color: var(--black);
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    border-bottom: 1px solid var(--black);
     cursor: pointer;
     margin: 0 5px;
     padding: 0.5em 1em;
@@ -618,15 +623,18 @@ main {
 .next-page {
     height: 100px;
     width: 100%;
+    padding: 0 700px;
 }
 
 .next-page p {
     display: flex;
     font-family: 'Montserrat', sans-serif;
-    font-size: 21px;
-    margin-top: 4em;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 2em;
     justify-content: center;
-    border-bottom: 1px solid var(--black);
+    border-bottom: 1px solid #000000;
+
 }
 
 .sustainable {
