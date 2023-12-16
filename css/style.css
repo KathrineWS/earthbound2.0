@@ -4681,7 +4681,7 @@ input[type=submit]:hover {
         display: flex;
         flex-direction: column;
         padding: 0px 16px;
-        margin-top: 4em;
+        margin-top: 2em;
     }
 
     .abouttext h1 {
@@ -4693,8 +4693,9 @@ input[type=submit]:hover {
     .abouttext p {
         font-family: 'Montserrat', sans-serif;
         margin-top: 1em;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
+        margin-bottom: 4em;
     }
 
 
@@ -4712,17 +4713,21 @@ input[type=submit]:hover {
 
     .giftguideblock {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
         background-color: var(--sand);
         height: 600px;
+
     }
 
     .giftblock {
-
-        width: 40%;
-        margin-left: 20px;
+        width: 30%;
+        margin-left: 80px;
         align-self: center;
-        display: flex;
+    }
+
+    .giftblock img {
+        width: 200px;
     }
 
     .gifttext {
@@ -4733,9 +4738,10 @@ input[type=submit]:hover {
 
     .gifttext p {
         font-family: 'Montserrat', sans-serif;
-        font-size: 21px;
+        font-size: 18px;
         font-weight: 400;
         margin-bottom: 2em;
+        width: 350px;
     }
 
     .gifttext a {
@@ -4743,7 +4749,7 @@ input[type=submit]:hover {
         font-size: 20px;
         font-weight: 400;
         background-color: var(--orange);
-        color: var(--black);
+        color: var(--white);
         cursor: pointer;
         text-align: center;
         text-decoration: none;
@@ -4753,7 +4759,7 @@ input[type=submit]:hover {
         justify-self: center;
     }
 
-    .guidetext a:hover {
+    .gifttext a:hover {
         background-color: var(--black);
         color: var(--white);
         text-align: center;
@@ -4781,7 +4787,7 @@ input[type=submit]:hover {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         max-width: 100%;
-        height: 700px;
+        height: 800px;
         background-color: var(--beige);
     }
 
@@ -4795,17 +4801,18 @@ input[type=submit]:hover {
 
     .blogtext h2 {
         font-family: 'Montserrat', sans-serif;
-        font-size: 38px;
+        font-size: 32px;
         font-weight: 400;
     }
 
 
     .blogtext button {
+        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 400;
         background-color: var(--orange);
         color: var(--white);
-        margin-top: 5em;
+        margin-top: 2em;
         /* border: 2px solid black; */
         cursor: pointer;
         text-align: center;
@@ -4863,11 +4870,12 @@ input[type=submit]:hover {
 
     .blogtext-two h2 {
         font-family: 'Montserrat', sans-serif;
-        font-size: 42px;
+        font-size: 32px;
         font-weight: 400;
     }
 
     .blogtext-two button {
+        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 400;
         background-color: var(--darkgreen);
@@ -4916,7 +4924,7 @@ input[type=submit]:hover {
         font-size: 28px;
         font-weight: 400;
         margin-top: 2em;
-        width: 400px;
+        width: 300px;
     }
 
     .partnerinfo p {
@@ -4924,7 +4932,7 @@ input[type=submit]:hover {
         font-size: 16px;
         font-weight: 400;
         margin-top: 1em;
-        width: 500px;
+        width: 300px;
         height: 100px;
     }
 
@@ -4997,7 +5005,7 @@ input[type=submit]:hover {
         cursor: pointer;
         text-align: center;
         text-decoration: none;
-        width: 40%;
+        width: 60%;
         height: 50px;
         justify-self: center;
         border: none;
