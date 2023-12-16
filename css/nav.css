@@ -365,11 +365,13 @@ footer ul {
         display: flex;
         flex-direction: row;
         width: 100%;
+        margin-left: 50px;
     }
 
     .login-nav img {
-        width: 21px;
+        width: 19px;
         margin-right: 10px;
+
 
     }
 
@@ -383,13 +385,14 @@ footer ul {
     .trustpilot-nav img {
         width: 120px;
         background-color: none;
-        margin-right: 20px;
+        margin-right: 10px;
 
     }
 
     .trustpilot-nav h2 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
+        font-size: 10px;
     }
 
     .navbar-two {
@@ -449,9 +452,9 @@ footer ul {
     .footer-grid {
         max-width: 100%;
         display: grid;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns: 1fr;
-        height: 500px;
+        height: 800px;
     }
 
 
@@ -488,21 +491,22 @@ footer ul {
     .right-footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        padding: 0 16px;
+        padding: 0 0px;
         list-style: none;
     }
 
     .footer-text {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         font-size: 18px;
         color: var(--black);
         text-decoration: none;
         margin-top: 2em;
-        width: 200px;
+        width: 100px;
     }
+
 
     .footer-text p {
         color: var(--black);
@@ -516,6 +520,7 @@ footer ul {
         padding: 20px;
         color: var(--black);
         font-family: 'Montserrat', sans-serif;
+        width: 100px;
     }
 
     .footer-text .about-footer {
