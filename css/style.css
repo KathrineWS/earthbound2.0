@@ -50,7 +50,7 @@ main {
 .landingtext a {
     font-size: 20px;
     font-weight: 400;
-    background-color: var(--orange);
+    background-color: var(--darkgreen);
     color: var(--white);
     margin-top: 5em;
     /* border: 2px solid black; */
@@ -73,7 +73,7 @@ main {
 }
 
 .landingimg {
-    margin-top: 4em;
+    margin-top: 1em;
     width: 100%;
     padding: 0px 0px;
     overflow: hidden;
@@ -152,15 +152,15 @@ main {
     margin-bottom: 0.5em;
 }
 
-#topblok .top3link {
+#topblok .topthreelink {
     display: flex;
     justify-content: center;
     margin-bottom: 4em;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    background-color: var(--darkgreen);
-    color: var(--beige);
+    background-color: var(--orange);
+    color: var(--white);
     /* border: 2px solid black; */
     cursor: pointer;
     text-align: center;
@@ -171,11 +171,12 @@ main {
     justify-self: center;
 }
 
-.topblok .top3link:hover {
+.topthreelink:hover {
     background-color: var(--black);
-    color: var(--beige);
+    color: var(--white);
     text-align: center;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .three-prod {
@@ -1794,30 +1795,31 @@ input[type=submit]:hover {
         margin-bottom: 0.5em;
     }
 
-    #topblok .top3link {
+    #topblok .topthreelink {
         display: flex;
         justify-content: center;
         margin-bottom: 4em;
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 400;
-        background-color: var(--darkgreen);
-        color: var(--beige);
+        background-color: var(--orange);
+        color: var(--white);
         /* border: 2px solid black; */
         cursor: pointer;
         text-align: center;
         text-decoration: none;
-        width: 40%;
+        width: 30%;
         height: 60px;
-        padding: 20px 20px;
+        padding: 15px 20px;
         justify-self: center;
     }
 
-    .topblok .top3link:hover {
+    .topthreelink:hover {
         background-color: var(--black);
-        color: var(--beige);
+        color: var(--white);
         text-align: center;
         text-decoration: none;
+        cursor: pointer;
     }
 
     .three-prod {
