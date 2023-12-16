@@ -902,7 +902,7 @@ main {
 /* Gift guide page */
 
 #giftguide {
-    background-image: url(/assets/Artboard\ 3.svg);
+    background-image: url(../assets/Artboard\ 3.svg);
     background-repeat: no-repeat;
     margin-top: 3em;
     display: grid;
@@ -956,7 +956,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    background-image: url(/assets/Artboard\ 3.svg);
+    background-image: url(../assets/Artboard\ 3.svg);
     background-color: var(--beige);
     background-repeat: no-repeat;
     margin-top: 3em;
@@ -1011,7 +1011,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    background-image: url(/assets/Artboard\ 3.svg);
+    background-image: url(../assets/Artboard\ 3.svg);
     background-color: var(--beige);
     background-repeat: no-repeat;
     margin-top: 3em;
@@ -1066,7 +1066,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    background-image: url(/assets/Artboard\ 3.svg);
+    background-image: url(../assets/Artboard\ 3.svg);
     background-color: var(--beige);
     background-repeat: no-repeat;
     margin-top: 3em;
@@ -2542,7 +2542,7 @@ input[type=submit]:hover {
     /* Gift guide page */
 
     #giftguide {
-        background-image: url(/assets/Artboard\ 3.svg);
+        background-image: url(../assets/Artboard\ 3.svg);
         background-repeat: no-repeat;
         margin-top: 5em;
         display: grid;
@@ -2596,7 +2596,7 @@ input[type=submit]:hover {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        background-image: url(/assets/Artboard\ 3.svg);
+        background-image: url(../assets/Artboard\ 3.svg);
         background-color: var(--beige);
         background-repeat: no-repeat;
         margin-top: 5em;
@@ -2652,7 +2652,7 @@ input[type=submit]:hover {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        background-image: url(/assets/Artboard\ 3.svg);
+        background-image: url(../assets/Artboard\ 3.svg);
         background-color: var(--beige);
         background-repeat: no-repeat;
         margin-top: 5em;
@@ -2711,7 +2711,7 @@ input[type=submit]:hover {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        background-image: url(/assets/Artboard\ 3.svg);
+        background-image: url(../assets/Artboard\ 3.svg);
         background-color: var(--beige);
         background-repeat: no-repeat;
         margin-top: 5em;
@@ -4222,7 +4222,7 @@ input[type=submit]:hover {
     /* Gift guide page */
 
     #giftguide {
-        background-image: url(/assets//Artboard\ 7.svg);
+        background-image: url(../assets//Artboard\ 7.svg);
         background-size: 150px;
         background-position-y: 400px;
         background-position-x: left;
@@ -4280,7 +4280,7 @@ input[type=submit]:hover {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        background-image: url(/assets//Artboard\ 7.svg);
+        background-image: url(../assets//Artboard\ 7.svg);
         background-size: 150px;
         background-position-y: 420px;
         background-position-x: left;
@@ -4338,7 +4338,7 @@ input[type=submit]:hover {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        background-image: url(/assets//Artboard\ 7.svg);
+        background-image: url(../assets//Artboard\ 7.svg);
         background-size: 150px;
         background-position-y: 420px;
         background-position-x: left;
@@ -4402,7 +4402,7 @@ input[type=submit]:hover {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        background-image: url(/assets//Artboard\ 7.svg);
+        background-image: url(../assets//Artboard\ 7.svg);
         background-size: 150px;
         background-position-y: 420px;
         background-position-x: left;
