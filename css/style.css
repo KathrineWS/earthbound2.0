@@ -4197,14 +4197,17 @@ input[type=submit]:hover {
     /* Gift guide page */
 
     #giftguide {
-        background-image: url(/assets/Artboard\ 3.svg);
+        background-image: url(/assets//Artboard\ 7.svg);
+        background-size: 150px;
+        background-position-y: 400px;
+        background-position-x: left;
         background-repeat: no-repeat;
-        margin-top: 5em;
+        margin-top: 6em;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         justify-content: center;
-        height: 830px;
+        height: 650px;
         background-color: var(--beige);
 
     }
@@ -4213,10 +4216,12 @@ input[type=submit]:hover {
         margin-top: 2em;
         height: 100px;
         font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
+        font-weight: 400;
         font-size: 32px;
+        padding: 0 16px;
         color: var(--black);
         text-align: center;
+        margin-bottom: 2em;
 
     }
 
@@ -4229,11 +4234,10 @@ input[type=submit]:hover {
         cursor: pointer;
         text-align: center;
         text-decoration: none;
-        width: 40%;
+        width: 60%;
         height: 60px;
         padding: 20px 40px;
         justify-self: center;
-        margin-bottom: 40em;
 
 
     }
@@ -4251,12 +4255,15 @@ input[type=submit]:hover {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        background-image: url(/assets/Artboard\ 3.svg);
-        background-color: var(--beige);
+        background-image: url(/assets//Artboard\ 7.svg);
+        background-size: 150px;
+        background-position-y: 420px;
+        background-position-x: left;
         background-repeat: no-repeat;
+        background-color: var(--beige);
         margin-top: 5em;
         justify-content: center;
-        height: 830px;
+        height: 630px;
 
     }
 
@@ -4264,7 +4271,7 @@ input[type=submit]:hover {
         margin-top: 2em;
         height: 100px;
         font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
+        font-weight: 400;
         font-size: 32px;
         color: var(--black);
         text-align: center;
@@ -4288,10 +4295,9 @@ input[type=submit]:hover {
         text-align: center;
         text-decoration: none;
         width: 90%;
-        height: 50px;
-        padding: 40px 40px;
+        height: 60px;
+        padding: 20px 40px;
         justify-self: center;
-        margin: 1em;
     }
 
     .pricebutton:hover {
@@ -4307,12 +4313,15 @@ input[type=submit]:hover {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        background-image: url(/assets/Artboard\ 3.svg);
-        background-color: var(--beige);
+        background-image: url(/assets//Artboard\ 7.svg);
+        background-size: 150px;
+        background-position-y: 420px;
+        background-position-x: left;
         background-repeat: no-repeat;
+        background-color: var(--beige);
         margin-top: 5em;
         justify-content: center;
-        height: 830px;
+        height: 650px;
 
     }
 
@@ -4320,12 +4329,14 @@ input[type=submit]:hover {
         margin-top: 2em;
         height: 100px;
         font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
+        font-weight: 400;
         font-size: 32px;
         color: var(--black);
         text-align: center;
-        width: 600px;
+        width: 350px;
         padding: 0 16px;
+        margin-bottom: 2em;
+        justify-self: center;
     }
 
 
@@ -4334,6 +4345,7 @@ input[type=submit]:hover {
         flex-direction: column;
         justify-self: center;
         margin-bottom: 50em;
+        align-items: center;
 
     }
 
@@ -4347,10 +4359,9 @@ input[type=submit]:hover {
         text-align: center;
         text-decoration: none;
         width: 90%;
-        height: 50px;
-        padding: 40px 40px;
+        height: 60px;
+        padding: 20px 40px;
         justify-self: center;
-        margin: 1em;
     }
 
     .catbutton:hover {
@@ -4366,12 +4377,15 @@ input[type=submit]:hover {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        background-image: url(/assets/Artboard\ 3.svg);
-        background-color: var(--beige);
+        background-image: url(/assets//Artboard\ 7.svg);
+        background-size: 150px;
+        background-position-y: 420px;
+        background-position-x: left;
         background-repeat: no-repeat;
+        background-color: var(--beige);
         margin-top: 5em;
         justify-content: center;
-        height: 830px;
+        height: 630px;
 
     }
 
@@ -4379,12 +4393,13 @@ input[type=submit]:hover {
         margin-top: 2em;
         height: 100px;
         font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
+        font-weight: 400;
         font-size: 32px;
-        width: 500px;
+        width: 300px;
         justify-self: center;
         color: var(--black);
         text-align: center;
+        margin-bottom: 2em;
     }
 
     .selectiongrid {
@@ -4404,10 +4419,11 @@ input[type=submit]:hover {
         cursor: pointer;
         text-align: center;
         text-decoration: none;
-        width: 80%;
-        height: 50px;
-        padding: 45px 40px;
-        margin: 2em;
+        width: 100%;
+        height: 60px;
+        padding: 20px 40px;
+        align-self: center;
+        margin: 1em;
 
     }
 
