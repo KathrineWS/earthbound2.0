@@ -14,6 +14,7 @@ main {
     /* padding: 0px 138px; */
     background-color: var(--white);
     font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
 }
 
 /* Landing page */
@@ -3312,7 +3313,7 @@ input[type=submit]:hover {
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 450px) {
     main {
         overflow: hidden;
     }
