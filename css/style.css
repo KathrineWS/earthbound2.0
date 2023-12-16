@@ -2259,15 +2259,17 @@ input[type=submit]:hover {
     .next-page {
         height: 100px;
         width: 100%;
+        padding: 0 16px;
     }
 
     .next-page p {
         display: flex;
         font-family: 'Montserrat', sans-serif;
         font-size: 21px;
-        margin-top: 4em;
+        margin-top: 2em;
         justify-content: center;
         border-bottom: 1px solid var(--black);
+        padding: 0 16px;
     }
 
     .sustainable {
@@ -3840,13 +3842,13 @@ input[type=submit]:hover {
         flex-direction: row;
         padding: 0px 16px;
         margin-top: 10em;
-        width: 500px;
+        width: 350px;
     }
 
     .productblock-text h1 {
         font-family: 'Montserrat', sans-serif;
         font-size: 32px;
-        font-weight: 400;
+        font-weight: 700;
         justify-self: center;
     }
 
@@ -3855,28 +3857,32 @@ input[type=submit]:hover {
     }
 
     #child1-main-left {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        /* display: flex;
+        flex-direction: column; */
         margin-bottom: 1em;
         padding: 0 16px;
-        border-bottom: 1px solid var(--black);
+        border-bottom: none;
+
     }
 
     #child1-main-left button {
         background-color: var(--white);
         color: var(--black);
         font-family: 'Montserrat', sans-serif;
-        font-size: 16px;
-        border-bottom: 1px solid var(--black);
+        font-size: 14px;
+        border: 1px solid var(--black);
         cursor: pointer;
         margin: 0 5px;
         padding: 0.5em 1em;
         padding-top: 0.7em;
-        margin-top: 5em;
+        margin-top: 2em;
         box-shadow: none;
-        border: none;
         transition: 0.5s ease;
         padding: 0 16px;
+
     }
 
     #child1-main-left button:hover {
@@ -3889,14 +3895,22 @@ input[type=submit]:hover {
         grid-template-rows: 1fr 1fr 1fr;
         margin-top: 2em;
         max-width: 100%;
+        max-height: 100%;
         gap: 1rem;
+        row-gap: 2rem;
         padding: 0 16px;
+
     }
 
     .listcontent {
         max-width: 100%;
+        height: 80%;
         justify-content: center;
 
+    }
+
+    .listcontent h2 {
+        font-size: 16px;
     }
 
     .gridlist {
@@ -3916,15 +3930,18 @@ input[type=submit]:hover {
     .next-page {
         height: 100px;
         width: 100%;
+        padding: 0 16px;
     }
 
     .next-page p {
         display: flex;
+        flex-direction: row;
         font-family: 'Montserrat', sans-serif;
         font-size: 21px;
-        margin-top: 4em;
+        margin-top: 1em;
         justify-content: center;
-        border-bottom: 1px solid var(--black);
+        border-bottom: none;
+        padding: 10px 16px;
     }
 
     .sustainable {
@@ -3997,7 +4014,7 @@ input[type=submit]:hover {
         display: flex;
         flex-direction: column;
         max-width: 100%;
-        height: 1400px;
+        height: 1300px;
         padding: 0 16px;
     }
 
@@ -4011,7 +4028,7 @@ input[type=submit]:hover {
 
     .singleimg img {
         width: 100%;
-        height: 700px;
+        height: 500px;
     }
 
     .single-info {
@@ -4024,14 +4041,14 @@ input[type=submit]:hover {
     .single-info .name-price {
         display: flex;
         flex-direction: row;
-        margin-top: 2em;
+        margin-top: 1em;
 
     }
 
     .name-price h2 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
-        font-size: 32px;
+        font-size: 28px;
         margin-right: 2em;
         margin-bottom: 1em;
     }
@@ -4044,29 +4061,37 @@ input[type=submit]:hover {
     }
 
     .descrip {
-        display: flex;
-        flex-direction: row;
-        border-bottom: 0.5px solid var(--black);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        border-bottom: none;
+
     }
 
     .descrip h3 {
-        padding-right: 2em;
+        padding-right: 1em;
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
         font-weight: 400;
         color: grey;
+        margin: 10px 0 10px 0;
+        width: 130px;
+        height: 40px;
+
     }
 
     .descrip .descrip-one {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         color: var(--black);
+        border: 1px solid var(--black);
     }
 
     .single-info .description {
         font-family: 'Montserrat', sans-serif;
         padding: 0 100px 0 0;
-        font-size: 14px;
+        font-size: 16px;
+        font-weight: 700;
         margin-top: 1em;
         height: 100px;
         border-bottom: 0.5px solid var(--black);
@@ -4142,7 +4167,7 @@ input[type=submit]:hover {
         cursor: pointer;
         text-align: center;
         text-decoration: none;
-        width: 40%;
+        width: 60%;
         height: 60px;
         padding: 20px 20px;
         justify-self: center;
@@ -4440,7 +4465,7 @@ input[type=submit]:hover {
     .contentwrapper {
         margin-top: 4em;
         margin-bottom: 2em;
-        height: 600px;
+        height: 540px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -4454,34 +4479,35 @@ input[type=submit]:hover {
         flex-direction: column;
         padding: 0px 16px;
         margin-top: 6em;
+
     }
 
     .resulttext h1 {
         font-family: 'Montserrat', sans-serif;
-        font-size: 28px;
+        font-size: 32px;
         font-weight: 700;
-        width: 450px;
+        width: 350px;
     }
 
     .resulttext h2 {
         font-family: 'Montserrat', sans-serif;
-        margin-top: 2em;
+        margin-top: 1em;
         font-size: 18px;
         font-weight: 400;
-        width: 400px;
+        width: 350px;
     }
 
     .contentwrapper .resultimg {
         display: flex;
         max-width: 100%;
         max-height: 100%;
-        justify-content: flex-end;
+        justify-content: center
     }
 
     .resultimg img {
         height: 50%;
         width: 50%;
-        margin-top: 10px;
+        margin-top: 30px;
         margin-bottom: 5em;
     }
 
@@ -4493,6 +4519,7 @@ input[type=submit]:hover {
         max-width: 100%;
         max-height: 100%;
         gap: 1rem;
+        row-gap: 4em;
     }
 
     .ggcontent {
@@ -4501,9 +4528,13 @@ input[type=submit]:hover {
         justify-content: center;
     }
 
+    .ggcontent h2 {
+        font-size: 18px;
+    }
+
     .ggcontent img {
         width: 100%;
-        height: 80%;
+        height: 70%;
     }
 
     .producttext {
@@ -4513,25 +4544,25 @@ input[type=submit]:hover {
 
     .resultbuttons {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         margin-bottom: 1em;
     }
 
     .resultbuttons a {
         font-family: 'Montserrat', sans-serif;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         background-color: var(--darkgreen);
         color: var(--white);
         cursor: pointer;
         text-align: center;
         text-decoration: none;
-        width: 50%;
-        height: 50px;
-        padding: 30px 10px;
-        justify-self: center;
-        margin: 1em;
+        width: 80%;
+        height: 60px;
+        padding: 20px 40px;
+        align-self: center;
+        margin: 0.5em;
     }
 
     .resultbuttons a:hover {
@@ -4562,9 +4593,9 @@ input[type=submit]:hover {
     .forminfo h2 {
         font-family: 'Montserrat', sans-serif;
         font-size: 28px;
-        font-weight: 400;
-        margin-top: 2em;
-        width: 400px;
+        font-weight: 700;
+        margin-top: 1em;
+        width: 350px;
     }
 
     .forminfo p {
@@ -4572,7 +4603,7 @@ input[type=submit]:hover {
         font-size: 18px;
         font-weight: 400;
         margin-top: 1em;
-        width: 500px;
+        width: 340px;
         height: 100px;
     }
 
@@ -4587,10 +4618,10 @@ input[type=submit]:hover {
     .formtext {
         font-family: 'Montserrat', sans-serif;
         font-size: 18px;
-        font-weight: 400;
+        font-weight: 700;
         display: flex;
         flex-direction: column;
-        width: 500px;
+        width: 350px;
         margin-top: 0em;
         height: 100px;
     }
@@ -4621,7 +4652,7 @@ input[type=submit]:hover {
         cursor: pointer;
         text-align: center;
         text-decoration: none;
-        width: 30%;
+        width: 40%;
         height: 50px;
         justify-self: center;
         border: none;
