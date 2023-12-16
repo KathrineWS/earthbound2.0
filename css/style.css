@@ -154,7 +154,7 @@ main {
     margin-bottom: 0.5em;
 }
 
-#topblok .topthreelink {
+.landingtopthree {
     display: flex;
     justify-content: center;
     margin-bottom: 4em;
@@ -173,7 +173,7 @@ main {
     justify-self: center;
 }
 
-.topthreelink:hover {
+.landingtopthree:hover {
     background-color: var(--black);
     color: var(--white);
     text-align: center;
@@ -1797,7 +1797,7 @@ input[type=submit]:hover {
         margin-bottom: 0.5em;
     }
 
-    #topblok .topthreelink {
+    .landingtopthree {
         display: flex;
         justify-content: center;
         margin-bottom: 4em;
@@ -1810,13 +1810,13 @@ input[type=submit]:hover {
         cursor: pointer;
         text-align: center;
         text-decoration: none;
-        width: 30%;
+        width: 50%;
         height: 60px;
         padding: 15px 20px;
         justify-self: center;
     }
 
-    .topthreelink:hover {
+    .landingtopthree:hover {
         background-color: var(--black);
         color: var(--white);
         text-align: center;
@@ -3428,6 +3428,7 @@ input[type=submit]:hover {
         grid-template-rows: 1fr 1fr 1fr;
         padding: 0px 16px;
         height: 1500px;
+        justify-content: center;
     }
 
     #topblok h2 {
@@ -3437,16 +3438,16 @@ input[type=submit]:hover {
         display: flex;
         text-align: center;
         height: 70px;
-        width: 500px;
+        width: 300px;
         margin-top: 1em;
         justify-self: center;
         margin-bottom: 0.5em;
     }
 
-    #topblok .topthreelink {
+    .landingtopthree {
         display: flex;
         justify-content: center;
-        margin-bottom: 4em;
+        margin-bottom: 2em;
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 400;
@@ -3456,13 +3457,13 @@ input[type=submit]:hover {
         cursor: pointer;
         text-align: center;
         text-decoration: none;
-        width: 30%;
+        width: 60%;
         height: 60px;
-        padding: 15px 20px;
+        padding: 20px 20px;
         justify-self: center;
     }
 
-    .topthreelink:hover {
+    .landingtopthree:hover {
         background-color: var(--black);
         color: var(--white);
         text-align: center;
@@ -3501,7 +3502,7 @@ input[type=submit]:hover {
     .reviews {
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
-        height: 500px;
+        height: 900px;
         background-color: var(--lightgreen);
 
     }
@@ -3509,17 +3510,22 @@ input[type=submit]:hover {
     .reviews h2 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
-        font-size: 32px;
+        font-size: 28px;
         display: flex;
         text-align: center;
         height: 50px;
         justify-self: center;
-        margin: 1em 138px;
+        padding: 0 16px;
+        margin: 30px 0 0 0;
+
+
     }
 
     .review-wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        margin: 0 0px;
 
 
 
@@ -3532,6 +3538,7 @@ input[type=submit]:hover {
         height: 300px;
         margin: 1em;
         box-shadow: 5px 5px 5px var(--black);
+        color: var(--black);
     }
 
 
@@ -3551,11 +3558,12 @@ input[type=submit]:hover {
 
     .review-cont .reviewp {
         font-family: 'Montserrat', sans-serif;
-        font-size: 16px;
+        font-size: 18px;
         margin-right: 30px;
         text-align: start;
         padding-top: 12px;
         align-self: center;
+        font-weight: 700;
     }
 
     .dots {
@@ -3564,7 +3572,9 @@ input[type=submit]:hover {
         justify-self: center;
     }
 
-
+    .logo-titel {
+        padding: 0 16px;
+    }
 
     #b2bservice {
         display: grid;
@@ -3607,7 +3617,8 @@ input[type=submit]:hover {
         flex-direction: row; */
         justify-content: center;
         align-content: center;
-        height: 80%;
+        height: 90%;
+        width: 350px;
     }
 
     .manual p {
@@ -3675,7 +3686,7 @@ input[type=submit]:hover {
         font-family: 'Montserrat', sans-serif;
         color: var(--lightgreen);
         font-size: 32px;
-        font-weight: 400;
+        font-weight: 700;
         margin-top: 2em;
     }
 
@@ -3686,7 +3697,7 @@ input[type=submit]:hover {
         font-weight: 400;
         text-align: left;
         margin-top: 1em;
-        width: 500px;
+        width: 350px;
     }
 
     #newsletter {
@@ -3703,7 +3714,7 @@ input[type=submit]:hover {
         font-family: 'Montserrat', sans-serif;
         color: var(--darkgreen);
         font-size: 32px;
-        font-weight: 400;
+        font-weight: 700;
     }
 
     .newslettertext p {
@@ -3713,7 +3724,7 @@ input[type=submit]:hover {
         font-weight: 400;
         text-align: left;
         margin-top: 1em;
-        width: 500px;
+        width: 350px;
     }
 
     /* microinteraction newsletter button */
@@ -3729,7 +3740,7 @@ input[type=submit]:hover {
     .newslettercontent {
         /* width: 360px;
         height: 40px; */
-        width: 500px;
+        width: 350px;
         height: 50px;
         /* box-shadow: 2px 4px 10px rgba(0, 0, 0, .2); */
         /* border-radius: 60px; */
